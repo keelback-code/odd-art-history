@@ -10,17 +10,21 @@ h1, h2 {
     font-family: 'Oxygen', sans-serif;
 }
 
-#nav-bar a {
+#nav-bar a, footer a {
     text-decoration: none;
     color: #20344a;
+} 
+
+#nav-bar li {
+    /*float: left;*/
+    list-style-type: none;
+    margin-left: 10px;
 }
 
-#nav-bar {
-    background-color: #49aecb;
+#nav-bar, footer {
+    background-color: #8fdcf1;
 }
+
+
 
 /* gallery image styling */
-
-#gallery-images {
-
-}
