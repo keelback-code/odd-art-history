@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Oxygen&display=swap');
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    color: #20344a;
+    background-color: #f4f7f7;
+}
+
+h1, h2 {
+    font-family: 'Oxygen', sans-serif;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: #20344a;
+}
+
+#nav-bar {
+    background-color: #49aecb;
+}
+
+/* gallery image styling */
+
+#gallery-images {
+
+}
