@@ -17,6 +17,7 @@ h1, h2 {
 
 #nav-bar li {
     /*float: left;*/
+    display: inline;
     list-style-type: none;
     margin-left: 10px;
 }
