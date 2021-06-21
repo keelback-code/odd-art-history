@@ -29,3 +29,8 @@ h1, h2 {
 
 
 /* gallery image styling */
+
+#gallery-images img {
+    width: 100%;
+    padding: 10px 0;
+}
