@@ -85,9 +85,21 @@ footer a:hover {
     border-color: #ac3d5a;
 }
 
+#rigaud figcaption {
+    font-size: smaller;
+}
+
 #rigaud-info {
-    text-decoration: none;
     margin-left: 10px;
+}
+
+#rigaud-info a {
+    text-decoration: none;
+    color: #20344a;
+}
+
+#rigaud-info a:hover {
+    text-decoration: underline;
 }
 
 
