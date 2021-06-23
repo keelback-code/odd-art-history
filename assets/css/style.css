@@ -8,6 +8,7 @@ body {
 
 h1, h2 {
     font-family: 'Oxygen', sans-serif;
+    margin-left: 10px;
 }
 
 #nav-bar a, footer a {
@@ -16,14 +17,27 @@ h1, h2 {
 } 
 
 #nav-bar li {
-    /*float: left;*/
     display: inline;
     list-style-type: none;
-    margin-left: 10px;
+    margin: 0;
+    padding-right: 20px;
+}
+
+#nav-bar li:hover {
+    text-decoration: underline;
+}
+
+#gallery-images a:hover {
+    text-decoration: underline;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 #nav-bar, footer {
     background-color: #8fdcf1;
+    padding: 10px;
 }
 
 
