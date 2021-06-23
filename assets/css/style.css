@@ -41,31 +41,29 @@ footer a:hover {
 }
 
 
-
-/* gallery image styling */
+/* gallery images*/
 
 .heel-image {
     background: url("../images/rigaud-louis-xiv-heels-cropped.jpg");
-    background-size: cover;
-    height: 400px;
-    width: 100%;
-    background-position-x: center;   
 }
 
 .bushes-image {
     background: url("../images/fragonard-swing-bushes-cropped.jpg");
-    background-size: cover;
-    height: 400px;
-    width: 100%;
-    background-position-x: center;
 }
 
 .balloon-image {
     background: url("../images/boucher-setting-of-the-sun-balloon-cropped.jpg");
+}
+
+#gallery-images div{
     background-size: cover;
     height: 400px;
     width: 100%;
+    border-radius: 6px;
     background-position-x: center;
+    border-style: outset;
+    border-width: 5px;
+    border-color: #ac3d5a; 
 }
 
 #gallery-images a {
@@ -77,9 +75,20 @@ footer a:hover {
     font-size: xx-large;
 }
 
+/*heels painting page*/
 
+#rigaud-painting {
+    border-radius: 6px;
+    width: 80vw;
+    border-style: outset;
+    border-width: 5px;
+    border-color: #ac3d5a;
+}
 
-
+#rigaud-info {
+    text-decoration: none;
+    margin-left: 10px;
+}
 
 
 
