@@ -51,7 +51,7 @@ h1, h3 {
 }
 
 .balloon-image {
-    background: url("../images/boucher-setting-of-the-sun-balloon-cropped.jpg");
+    background: url("../images/boucher-setting-of-the-sun-balloon.jpg");
 }
 
 #gallery-images div{
@@ -59,15 +59,17 @@ h1, h3 {
     height: 400px;
     border-radius: 6px;
     background-position-x: center;
+    background-position-y: center;
     border-style: outset;
     border-width: 5px;
     border-color: #ac3d5a; 
     display: block;
+    
 }
 
 #gallery-images a {
     position: relative;
-    top: 50%;
+    top: 200px;
     display: block;
     margin: auto;
     text-align: center;
@@ -146,6 +148,15 @@ h1, h3 {
 @media screen and (max-width: 950px){
     #nav-bar li {
         padding-right: 40px;
+    }
+
+    .bushes-image {
+        background: url("../images/fragonard-swing-bushes.jpg");
+        overflow: hidden;
+    }
+
+    .balloon-image {
+        overflow: hidden;
     }
 }
 
