@@ -11,15 +11,15 @@ header {
     background-size: cover;
 }
 */
-h1, h2 {
+h1, h3 {
     font-family: 'Oxygen', sans-serif;
     margin-left: 10px;
     text-align: center;
 }
 
-#nav-bar a, footer a {
+#nav-bar a, footer a, body a {
     text-decoration: none;
-    color: #20344a;
+    color: #f4f7f7;
 } 
 
 #nav-bar li {
@@ -29,20 +29,12 @@ h1, h2 {
     padding-right: 20px;
 }
 
-#nav-bar li:hover {
-    text-decoration: underline;
-}
-
-#gallery-images a:hover {
-    text-decoration: underline;
-}
-
-footer a:hover {
+#nav-bar li:hover, #gallery-images a:hover, footer a:hover {
     text-decoration: underline;
 }
 
 #nav-bar, footer {
-    background-color: #8fdcf1;
+    background-color: #ac3d5a;
     padding: 10px;
 }
 
@@ -125,9 +117,7 @@ footer a:hover {
 }
 */
 
-/*Centering image*/
-
-#rigaud-painting img {
+#rigaud img {
     border-radius: 6px;
     width: 50vw;
     border-style: outset;
@@ -136,21 +126,21 @@ footer a:hover {
     margin: auto;
     display: block;
 }
-/*Styling for text content on gallery page*/
 
-#rigaud-info {
+#rigaud {
     text-align: center;
     display: block;
-}
-
-#rigaud-info a {
     text-decoration: none;
     color: #f4f7f7;
+    padding-bottom: 20px;
 }
 
 #rigaud-info a:hover {
     text-decoration: underline;
 }
+
+
+
 
 
 
