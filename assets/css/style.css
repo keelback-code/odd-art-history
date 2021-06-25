@@ -75,7 +75,7 @@ footer a:hover {
 #gallery-images a {
     position: relative;
     top: 50%;
-    left: 50%;
+    left: 47%;
     text-align: center;
     text-decoration: none;
     color: #f4f7f7;
@@ -83,6 +83,8 @@ footer a:hover {
 }
 
 /*heels painting page*/
+
+/* positioning for toggling, temporarily removed for centering purposes
 
 #rigaud figure {
     position: relative;
@@ -110,8 +112,9 @@ footer a:hover {
     top: 0;
     left: 0;
 }
+*/
 
-/*Styling for clicking between two images, based on code from https://www.digitalocean.com/community/tutorials/css-css-only-click-handler*/
+/*Styling for clicking between two images, based on code from https://www.digitalocean.com/community/tutorials/css-css-only-click-handler
 
 #rigaud-painting-detail {
     display: none;
@@ -120,21 +123,32 @@ footer a:hover {
 #rigaud-painting-detail:target {
     display: initial;
 }
+*/
 
+/*Centering image*/
 
+#rigaud-painting img {
+    border-radius: 6px;
+    width: 50vw;
+    border-style: outset;
+    border-width: 5px;
+    border-color: #ac3d5a;
+    margin: auto;
+    display: block;
+}
 /*Styling for text content on gallery page*/
 
 #rigaud-info {
-    margin-left: 10px;
+    text-align: center;
+    display: block;
 }
 
-#rigaud-info a, #rigaud figure a {
+#rigaud-info a {
     text-decoration: none;
     color: #f4f7f7;
-    text-align: center;
 }
 
-#rigaud-info a:hover, #rigaud figure a:hover {
+#rigaud-info a:hover {
     text-decoration: underline;
 }
 
