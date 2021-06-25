@@ -36,6 +36,7 @@ h1, h3 {
 #nav-bar, footer {
     background-color: #ac3d5a;
     padding: 10px;
+    display: block;
 }
 
 
@@ -56,18 +57,19 @@ h1, h3 {
 #gallery-images div{
     background-size: cover;
     height: 400px;
-    width: 100%;
     border-radius: 6px;
     background-position-x: center;
     border-style: outset;
     border-width: 5px;
     border-color: #ac3d5a; 
+    display: block;
 }
 
 #gallery-images a {
     position: relative;
     top: 50%;
-    left: 47%;
+    display: block;
+    margin: auto;
     text-align: center;
     text-decoration: none;
     color: #f4f7f7;
@@ -119,7 +121,7 @@ h1, h3 {
 
 #rigaud img {
     border-radius: 6px;
-    width: 50vw;
+    width: 80vw;
     border-style: outset;
     border-width: 5px;
     border-color: #ac3d5a;
@@ -139,8 +141,13 @@ h1, h3 {
     text-decoration: underline;
 }
 
+/*Media queries for painting pages*/
 
-
+@media screen and (max-width: 950px){
+    #nav-bar li {
+        padding-right: 40px;
+    }
+}
 
 
 
