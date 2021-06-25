@@ -7,23 +7,23 @@ The site was built to fulfill the requirements of Project Portfolio 1 for the Co
 
 ### Table of contents:
 
-User Stories 
+[User Stories](#user-stories) 
 
-UX
+[UX Considerations](#ux-considerations) 
 
-Design colour schemes and typography
+[Design colour schemes and typography](#design-colour-schemes-and-typography)
 
-Features 
+[Features](#features)
 
-Technologies
+[Technologies](#technologies)
 
-Testing 
+[Testing ](#testing)
 
-Debugging and known bugs
+[Debugging and known bugs](#debugging-and-known-bugs)
 
-Deployment
+[Deployment](#deployment)
 
-Credits
+[Credits](#credits)
 
 ## User Stories
 
@@ -47,7 +47,7 @@ A returning visitor wishing to contribute to the site:
 * I want to be able to contact the site owner
 
 A disabled user who is new or returning to the site:
-* I want to be able to access and use the site in the same way as any 
+* I want to be able to access and use the site in the same way as any of the aforementioned users
 
 As the owner of the site:
 * I want users to be able to use the site easily and intuitively
@@ -59,13 +59,19 @@ As the owner of the site:
 
 For part of the site I used a hub and spoke design, with the Gallery (landing) page as the hub and the 3 painting pages as spokes. These pages do not appear on the navigation bar but can only be accessed from the links on the Gallery page.
 The reason for this design for the paintings is to bring a sense of playfulness to the website. It would be simple to add in nav links for each painting, either with the painting title or their ‘hint’ word (heels, bushes, balloon), but I feel this would take away from the intrigue and mystery of discovering information about the paintings.
+
 I have included the Gallery, Odd Resources and Suggestions page on the nav bar so that the rest of the site is still clear and simple to navigate, as I don’t want the users to be frustrated or overloaded. I would like to introduce a small amount of playfulness and intrigue but not so much that it becomes tiring or frustrating.
 
 ## Design colour schemes and typography
 
 I used colormind.io to choose a colour scheme, and Google Fonts for the typography. 
-pics of colours here
-I ended up altering the colour scheme a little as the light blue I originally chose did not have a high enough contrast with the text. I chose a scheme with one red accent, to mirror Louis XIV’s heels in Rigaud’s portrait.
+
+<p align="center">
+  <img src="assets/images/colormind-palette-snip-1-red-hlight.JPG">
+</p>
+
+I ended up altering the colour scheme a little as the light blue I originally chose did not have a high enough contrast with the text. #49AECB was replaced with #8fdcf1 using the Gitpod dropper tool. I chose a scheme with one red accent, to mirror Louis XIV’s heels in Rigaud’s portrait.
+
 For the fonts, Oxygen is used for the headings/titles and Fira Sans for the main content, with Sans Serif as a back-up for both.
 
 ## Features
@@ -108,7 +114,7 @@ Frameworks, Libraries and Programs Used:
 * Google Chrome Developer Tools - for inspecting and testing the site
 * GitHub - for hosting the site
 GitPages - for the deployment of the site
-* GitPod - for editing the files
+* Gitpod - for editing the files
 * Font Awesome - for the icons used under the main text on the painting pages
 
 ## Testing
@@ -117,4 +123,4 @@ GitPages - for the deployment of the site
 
 ## Deployment
 
-## Credit
+## Credits
