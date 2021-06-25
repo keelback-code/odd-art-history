@@ -71,7 +71,7 @@ h1, h3 {
     font-size: xx-large;
 }
 
-/*heels painting page*/
+/*styling for all 3 painting pages*/
 
 /* positioning for toggling, temporarily removed for centering purposes
 
@@ -114,25 +114,23 @@ h1, h3 {
 }
 */
 
-#rigaud img {
-    border-radius: 6px;
-    width: 80vw;
-    border-style: outset;
-    border-width: 5px;
-    border-color: #ac3d5a;
-    margin: auto;
-    display: block;
-}
-
-#rigaud {
+#rigaud, #fragonard, #boucher {
     text-align: center;
     display: block;
     text-decoration: none;
     color: #f4f7f7;
     padding-bottom: 20px;
 }
+#rigaud img, #fragonard img, #boucher img {
+    width: 80vw;
+    border-radius: 6px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: #ac3d5a;
+    margin: auto;
+}
 
-#rigaud-info a:hover {
+#rigaud-info a:hover, #fragonard-info a:hover, #boucher-info a:hover {
     text-decoration: underline;
 }
 
