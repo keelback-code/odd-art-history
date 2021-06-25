@@ -70,7 +70,7 @@ I used colormind.io to choose a colour scheme, and Google Fonts for the typograp
   <img src="assets/images/colormind-palette-snip-1-red-hlight.JPG">
 </p>
 
-I ended up altering the colour scheme a little as the light blue I originally chose did not have a high enough contrast with the text. #49AECB was replaced with #8fdcf1 using the Gitpod dropper tool. I chose a scheme with one red accent, to mirror Louis XIV’s heels in Rigaud’s portrait.
+I ended up altering the colour scheme a little as the light blue I originally chose did not have a high enough contrast with the text. #49AECB was replaced with #8FDCF1 using the Gitpod dropper tool. I chose a scheme with one red accent, to mirror Louis XIV’s heels in Rigaud’s portrait.
 
 For the fonts, Oxygen is used for the headings/titles and Fira Sans for the main content, with Sans Serif as a back-up for both.
 
