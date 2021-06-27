@@ -11,6 +11,8 @@ The site was built to fulfill the requirements of Project Portfolio 1 for the Co
 
 [UX Considerations](#ux-considerations) 
 
+[Wireframes](#wireframes)
+
 [Design colour schemes and typography](#design-colour-schemes-and-typography)
 
 [Features](#features)
@@ -62,6 +64,26 @@ The reason for this design for the paintings is to bring a sense of playfulness 
 
 I have included the Gallery, Odd Resources and Suggestions page on the nav bar so that the rest of the site is still clear and simple to navigate, as I don’t want the users to be frustrated or overloaded. I would like to introduce a small amount of playfulness and intrigue but not so much that it becomes tiring or frustrating.
 
+## Wireframes
+
+Wireframes were produced using Balsamiq. Ultimately the final design followed the broad strokes of the designs but some key points differed, such as the desktop view being center aligned instead of left-aligned. After a very small amount of initial testing in the design stage (I asked my wife what she thought) it was decided that a left aligned page on such a simple site was reminiscent of the websites from the 90s and early 2000s, and that a center aligned site has a more modern feel. The mobile and tablet views were already center aligned as this visually makes more sense on a smaller viewport.
+
+<p align="center">
+  <img src="assets/images/wireframe-gallery.png">
+</p>
+
+<p align="center">
+  <img src="assets/images/wireframe-painting.png">
+</p>
+
+<p align="center">
+  <img src="assets/images/wireframe-resources.png">
+</p>
+
+<p align="center">
+  <img src="assets/images/wireframe-suggestions.png">
+</p>
+
 ## Design colour schemes and typography
 
 I used colormind.io to choose a colour scheme, and Google Fonts for the typography. 
@@ -111,7 +133,7 @@ Frameworks, Libraries and Programs Used:
 * Wikimedia Commons - for the painting images
 * TinyJPG - for compressing the larger images
 * Balsamiq - for creating the wireframes in the design stage
-* Google Chrome Developer Tools - for inspecting and testing the site
+* Google Chrome Developer Tools and Firefox Developer Tools - for inspecting and testing the site
 * GitHub - for hosting the site
 GitPages - for the deployment of the site
 * Gitpod - for editing the files
