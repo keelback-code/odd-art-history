@@ -134,6 +134,27 @@ h1, h3 {
     text-decoration: underline;
 }
 
+/*Styling for Suggestions page*/
+
+.suggestions-form-text {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#artwork-reason {
+    font-size: smaller;
+}
+
+#suggestions-form h3, #suggestions-form p {
+    text-align: center;
+}
+
+#submit-button:hover {
+    border-color: #ac3d5a;
+    border-width: 5px;
+    background-color: #20344a;
+    color: #f4f7f7;
+}
+
 /*Media queries for painting pages*/
 
 @media screen and (max-width: 800px){
