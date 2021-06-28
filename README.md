@@ -100,32 +100,34 @@ I used colormind.io to choose a colour scheme, and Google Fonts for the typograp
 
 I ended up altering the colour scheme a little as the light blue I originally chose did not have a high enough contrast with the text. #49AECB was replaced with #8FDCF1 using the Gitpod dropper tool. I chose a scheme with one red accent, to mirror Louis XIV’s heels in Rigaud’s portrait.
 
-For the fonts, Oxygen is used for the headings/titles and Fira Sans for the main content, with Sans Serif as a back-up for both.
+For the fonts, Lato is used for the headings/titles and Merriweather for the main content, with back-ups provided for both.
 
 ## Features
 
 Features across all pages
-* Clear header and site ‘slogan’ describing site purpose
-* Navigation bar listing Gallery, Odd Resources, Suggestions and Say Hi (which will link to social media)
-* Footer mirroring design of navigation bar, which will link back to top of page
+* Clear header and site ‘slogan’, making the purpose clear to users of the site.
+* Navigation bar listing Gallery, Odd Resources, Suggestions and Say Hi (which will link to Facebook), allowing for easy navigation of site for all users.
+* Footer mirroring design of navigation bar, which will link back to top of page.
+* Header will always remain at top of page and footer will always remain at bottom of page as user scrolls in order to allow for maximum view of visual content. The main purpose of the footer will be to link to the top of the page, so that the user does not have to scroll back up.
 
 Gallery (home/landing page)
-* Three main images that link to painting pages - each one is a ‘hint’ of the painting, with a hint word and hint image. 
-* Images are page width on all devices with the hint word as a link to the painting page
+* Three main images that link to painting pages - each one is a ‘hint’ of the painting, with a hint word and hint image. The aim of the images is to make the user curious about the content.
+* Images are page width on all devices with the hint word as a link to the painting page.
 
 Painting pages (x3, ‘heels’, ‘bushes’, ‘balloons’)
-* Spokes from gallery hub (design choice explained in UX section of readme)
-* Full image of painting with label, when clicked on will change to close up of detail talked about in text
-* Text about painting with link back to gallery page for easy navigation
-* Links to image and text references
+* Spokes from gallery hub (design choice explained in UX section of readme).
+* Full view of painting with label, when clicked on will change to close up of detail talked about in text.
+* Text about painting with link back to gallery page for easy navigation, deliberately providing multiple ways to return to the landing page
+* Links to image and text references clearly provided, with icons from Fontawesome as added visual cues.
 
 Suggestions page
-* Easy to use form for users to suggest paintings
-* Optional to provide contact details (theoretically if site user chooses a  painting, they would contact the user and ask if okay to use their name, or possibly for more info)
+* Easy to use form for users to suggest paintings - make it simple for users to submit paintings
+* Placeholder text instead of labels to make form neat and tidy; aria labels with same text for accessibility.
+* Optional to provide contact details (theoretically if site user chooses a  painting, they would contact the user and ask if okay to use their name, or possibly for more info).
 
 Odd Resources page
-* Page with links to further information
-* Embedded video (will not autoplay, muted)
+* Page with links to further information - hopefully the site will have piqued the user's interest in weird art history and a easy-to-find page of further information will help them on their journey.
+* There will be an embedded video, as a teaser for one of the resources; it will not autoplay and will be muted.
 
 ## Technologies
 
