@@ -122,14 +122,14 @@ footer {
 }
 */
 
-#rigaud, #fragonard, #boucher {
+.painting {
     text-align: center;
     display: block;
     text-decoration: none;
     color: #f4f7f7;
     padding-bottom: 20px;
 }
-#rigaud img, #fragonard img, #boucher img {
+.painting img {
     width: 80vw;
     border-radius: 6px;
     border-style: outset;
@@ -138,11 +138,7 @@ footer {
     margin: auto;
 }
 
-#rigaud-info a:hover, #fragonard-info a:hover, #boucher-info a:hover {
-    text-decoration: underline;
-}
-
-#rigaud-info a:focus, #fragonard-info a:focus, #boucher-info a:focus {
+.painting-info a:hover, .painting-info a:focus {
     text-decoration: underline;
 }
 
