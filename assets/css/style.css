@@ -174,7 +174,7 @@ footer {
 
 
 
-/*Media queries for painting pages*/
+/*Media queries*/
 
 @media screen and (max-width: 800px){
     #nav-bar li {
@@ -188,6 +188,18 @@ footer {
     .balloon-image {
         background: url("../images/boucher-setting-of-the-sun-balloon-cropped-mobile.jpg");
     }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .suggestions-form-text {
+        width: 80%;
+    }
+
+    #submit-button {
+        width: initial;
+    }
+
 }
 
 
