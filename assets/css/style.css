@@ -152,7 +152,7 @@ footer {
     font-size: smaller;
 }
 
-#suggestions-section h3, #suggestions-section p {
+#suggestions-article h3, #suggestions-article p {
     text-align: center;
 }
 
@@ -174,7 +174,9 @@ footer {
     text-align: center;
     display: block;
 }
-
+#odd-resources a {
+    padding: 20px;
+}
 #odd-resources a:hover, #odd-resources a:focus{
     text-decoration: underline;
 }
@@ -203,6 +205,10 @@ footer {
 
     #submit-button {
         width: initial;
+    }
+
+    #odd-resources iframe {
+        width: 100vw;
     }
 
 }
