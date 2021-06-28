@@ -170,4 +170,4 @@ All images were taken from Wikimedia commons and are free to use. References are
 
 Content
 
-Much of the content comes from my own knowledge but has been researched for accuracy and references are listed on each page.
+Much of the content comes from my own knowledge as an Art History major at the University of Sydney but has been researched for accuracy and references are listed on each page.
