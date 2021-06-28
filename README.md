@@ -1,11 +1,8 @@
 # Odd Art History
 
-## Purpose
-
-The purpose of the site is to provide interesting information about art history, specifically older paintings. The information is aimed to be presented to users who may consider the topic boring or uninteresting, or interested users who are looking for something new.
-The site was built to fulfill the requirements of Project Portfolio 1 for the Code Institute’s Diploma in Software Development.
-
 ### Table of contents:
+
+[Purpose](#purpose)
 
 [User Stories](#user-stories) 
 
@@ -26,6 +23,15 @@ The site was built to fulfill the requirements of Project Portfolio 1 for the Co
 [Deployment](#deployment)
 
 [Credits](#credits)
+
+## Purpose
+
+The purpose of the site is to provide interesting information about art history, specifically older paintings. The information is aimed to be presented to users who may consider the topic boring or uninteresting, or interested users who are looking for something new.
+The site was built to fulfill the requirements of Project Portfolio 1 for the Code Institute’s Diploma in Software Development.
+
+It can be found here:
+
+[Odd Art History](https://elyserh.github.io/odd-art-history/)
 
 ## User Stories
 
@@ -66,22 +72,22 @@ I have included the Gallery, Odd Resources and Suggestions page on the nav bar s
 
 ## Wireframes
 
-Wireframes were produced using Balsamiq. Ultimately the final design followed the broad strokes of the designs but some key points differed, such as the desktop view being center aligned instead of left-aligned. After a very small amount of initial testing in the design stage (I asked my wife what she thought) it was decided that a left aligned page on such a simple site was reminiscent of the websites from the 90s and early 2000s, and that a center aligned site has a more modern feel. The mobile and tablet views were already center aligned as this visually makes more sense on a smaller viewport.
+Wireframes were produced using Balsamiq. Ultimately the final site followed the broad strokes of the designs but some key points differed, such as the desktop view being center aligned instead of left aligned. I decided that a left aligned page on a simple desktop site was reminiscent of the websites from the 90s, and that a center aligned site has a more modern feel. The mobile and tablet views were already center aligned as this visually makes more sense and is more common on a smaller viewport.
 
 <p align="center">
-  <img src="assets/images/wireframe-gallery.png">
+  <img src="assets/images/readme-images/wireframe-gallery.png">
 </p>
 
 <p align="center">
-  <img src="assets/images/wireframe-painting.png">
+  <img src="assets/images/readme-images/wireframe-painting.png">
 </p>
 
 <p align="center">
-  <img src="assets/images/wireframe-resources.png">
+  <img src="assets/images/readme-images/wireframe-resources.png">
 </p>
 
 <p align="center">
-  <img src="assets/images/wireframe-suggestions.png">
+  <img src="assets/images/readme-images/wireframe-suggestions.png">
 </p>
 
 ## Design colour schemes and typography
@@ -89,7 +95,7 @@ Wireframes were produced using Balsamiq. Ultimately the final design followed th
 I used colormind.io to choose a colour scheme, and Google Fonts for the typography. 
 
 <p align="center">
-  <img src="assets/images/colormind-palette-snip-1-red-hlight.JPG">
+  <img src="assets/images/readme-images/colormind-palette-snip-1-red-hlight.JPG">
 </p>
 
 I ended up altering the colour scheme a little as the light blue I originally chose did not have a high enough contrast with the text. #49AECB was replaced with #8FDCF1 using the Gitpod dropper tool. I chose a scheme with one red accent, to mirror Louis XIV’s heels in Rigaud’s portrait.
@@ -135,7 +141,7 @@ Frameworks, Libraries and Programs Used:
 * Balsamiq - for creating the wireframes in the design stage
 * Google Chrome Developer Tools and Firefox Developer Tools - for inspecting and testing the site
 * GitHub - for hosting the site
-GitPages - for the deployment of the site
+* GitPages - for the deployment of the site
 * Gitpod - for editing the files
 * Font Awesome - for the icons used under the main text on the painting pages
 
@@ -145,4 +151,23 @@ GitPages - for the deployment of the site
 
 ## Deployment
 
+The project was deployed using GitHub pages. The steps to deploy using GitHub pages are:
+* In the repository, click the 'Settings' tab, which is the furthest to the right
+* Scroll down until you see the 'Pages' tab, which will be in the menu on the left hand side
+* Underneath the 'Source' heading, open the drop down and choose the 'master' branch to buid from
+* Click 'Save' and the site will be link will appear in a blue box. After a few moments the box will turn green and then the site will be live.
+
+The live link is:
+
+[Odd Art History](https://elyserh.github.io/odd-art-history/)
+
+
 ## Credits
+
+Images
+
+All images were taken from Wikimedia commons and are free to use. References are provided on each page. The gallery page uses the same source image as the painting pages.
+
+Content
+
+Much of the content comes from my own knowledge but has been researched for accuracy and references are listed on each page.
