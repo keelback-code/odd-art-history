@@ -168,7 +168,12 @@ footer {
     margin-bottom: 20px;
 }
 
+/*Styling for Resources page*/
 
+#hannah-gadsby-resources {
+    display: inline;
+    clear: both;
+}
 
 /*Media queries*/
 

@@ -127,7 +127,7 @@ Suggestions page
 
 Odd Resources page
 * Page with links to further information - hopefully the site will have piqued the user's interest in weird art history and a easy-to-find page of further information will help them on their journey.
-* There will be an embedded video, as a teaser for one of the resources; it will not autoplay and will be muted.
+* There will be an embedded video, as a teaser for one of the resources; it will not autoplay.
 
 ## Technologies
 
@@ -173,3 +173,5 @@ All images were taken from Wikimedia commons and are free to use. References are
 Content
 
 Much of the content comes from my own knowledge as an Art History major at the University of Sydney but has been researched for accuracy and references are listed on each page.
+
+For the Hannah Gadsby video I used the code that YouTube provides for embedding videos, but removed autoplay, changed the size and altered the title attribute.
