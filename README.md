@@ -105,27 +105,27 @@ For the fonts, Oxygen is used for the headings/titles and Fira Sans for the main
 ## Features
 
 Features across all pages
-* clear header and site ‘slogan’ describing site purpose
-* navigation bar listing Gallery, Odd Resources, Suggestions and Say Hi (which will link to social media)
-* footer mirroring design of navigation bar, which will link back to top of page
+* Clear header and site ‘slogan’ describing site purpose
+* Navigation bar listing Gallery, Odd Resources, Suggestions and Say Hi (which will link to social media)
+* Footer mirroring design of navigation bar, which will link back to top of page
 
 Gallery (home/landing page)
-* three main images that link to painting pages - each one is a ‘hint’ of the painting, with a hint word and hint image. 
-* images are page width on all devices with the hint word as a link to the painting page
+* Three main images that link to painting pages - each one is a ‘hint’ of the painting, with a hint word and hint image. 
+* Images are page width on all devices with the hint word as a link to the painting page
 
 Painting pages (x3, ‘heels’, ‘bushes’, ‘balloons’)
-* spokes from gallery hub (design choice explained in UX section of readme)
-* full image of painting with label, when clicked on will change to close up of detail talked about in text
-* text about painting with link back to gallery page for easy navigation
-* links to image and text references
+* Spokes from gallery hub (design choice explained in UX section of readme)
+* Full image of painting with label, when clicked on will change to close up of detail talked about in text
+* Text about painting with link back to gallery page for easy navigation
+* Links to image and text references
 
 Suggestions page
-* easy to use form for users to suggest paintings
-* optional to provide contact details (theoretically if site user chooses a  painting, they would contact the user and ask if okay to use their name, or possibly for more info)
+* Easy to use form for users to suggest paintings
+* Optional to provide contact details (theoretically if site user chooses a  painting, they would contact the user and ask if okay to use their name, or possibly for more info)
 
 Odd Resources page
-* page with links to further information
-* embedded video (will not autoplay, muted)
+* Page with links to further information
+* Embedded video (will not autoplay, muted)
 
 ## Technologies
 
