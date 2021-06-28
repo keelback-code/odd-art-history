@@ -38,6 +38,10 @@ h1, h3 {
     display: block;
 }
 
+footer {
+    clear: both;
+}
+
 
 /* gallery images*/
 
@@ -77,7 +81,7 @@ h1, h3 {
 
 /*styling for all 3 painting pages*/
 
-/* positioning for toggling, temporarily removed for centering purposes
+/* positioning for toggling, temporarily removed, will come back and assess later
 
 #rigaud figure {
     position: relative;
@@ -138,6 +142,10 @@ h1, h3 {
     text-decoration: underline;
 }
 
+#rigaud-info a:focus, #fragonard-info a:focus, #boucher-info a:focus {
+    text-decoration: underline;
+}
+
 /*Styling for Suggestions page*/
 
 .suggestions-form-text {
@@ -148,7 +156,7 @@ h1, h3 {
     font-size: smaller;
 }
 
-#suggestions-form h3, #suggestions-form p {
+#suggestions-section h3, #suggestions-section p {
     text-align: center;
 }
 
@@ -158,6 +166,13 @@ h1, h3 {
     background-color: #20344a;
     color: #f4f7f7;
 }
+
+#suggestions-form {
+    float: left; 
+    margin-bottom: 20px;
+}
+
+
 
 /*Media queries for painting pages*/
 
