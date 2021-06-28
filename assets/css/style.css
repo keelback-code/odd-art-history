@@ -170,9 +170,13 @@ footer {
 
 /*Styling for Resources page*/
 
-#hannah-gadsby-resources {
-    display: inline;
-    clear: both;
+#odd-resources {
+    text-align: center;
+    display: block;
+}
+
+#odd-resources a:hover, #odd-resources a:focus{
+    text-decoration: underline;
 }
 
 /*Media queries*/
@@ -194,7 +198,7 @@ footer {
 
 @media screen and (max-width: 500px) {
     .suggestions-form-text {
-        width: 80%;
+        width: 80vw;
     }
 
     #submit-button {
