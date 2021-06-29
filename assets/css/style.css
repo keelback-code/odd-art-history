@@ -12,27 +12,31 @@ h1, h3 {
     text-align: center;
 }
 
-#nav-bar a, footer a, body a {
+#nav-mobile {
+    display: none;
+}
+
+.nav-bar a, footer a, body a {
     text-decoration: none;
     color: #f4f7f7;
 } 
 
-#nav-bar li {
-    display: inline-block;
+.nav-bar li {
+    display: inline;
     list-style-type: none;
     margin: 0;
     padding-right: 20px;
 }
 
-#nav-bar li:hover, #gallery-images a:hover, footer a:hover {
+.nav-bar li:hover, #gallery-images a:hover, footer a:hover {
     text-decoration: underline;
 }
 
-#nav-bar li:focus, #gallery-images a:focus, footer a:focus {
+.nav-bar li:focus, #gallery-images a:focus, footer a:focus {
     text-decoration: underline;
 }
 
-#nav-bar, footer {
+.nav-bar, footer {
     background-color: #ac3d5a;
     padding: 10px;
     display: block;
@@ -135,7 +139,7 @@ footer {
     border-style: outset;
     border-width: 5px;
     border-color: #ac3d5a;
-    margin: auto;
+    margin: auto; 
 }
 
 .painting-info a:hover, .painting-info a:focus {
@@ -191,10 +195,6 @@ footer {
 /*Media queries*/
 
 @media screen and (max-width: 800px){
-    #nav-bar li {
-        padding-right: 40px;
-    }
-
     .bushes-image {
         background: url("../images/fragonard-swing-bushes-cropped-mobile.jpg");
     }
@@ -202,10 +202,22 @@ footer {
     .balloon-image {
         background: url("../images/boucher-setting-of-the-sun-balloon-cropped-mobile.jpg");
     }
+
+    #gadsby-video {
+        width: 80vw;
+    }
     
 }
 
 @media screen and (max-width: 500px) {
+    #nav-main {
+        display: none;
+    }
+
+    #nav-mobile {
+        display: unset;
+    }
+
     .suggestions-form-text {
         width: 80vw;
     }
@@ -214,9 +226,7 @@ footer {
         width: initial;
     }
 
-    #odd-resources iframe {
-        width: 100vw;
-    }
+    
 
 }
 
