@@ -146,8 +146,6 @@ footer {
 
 .suggestions-form-text {
     font-family: 'Lato', sans-serif;
-    width: 80%;
-    float: left;
 }
 
 #artwork-reason {
@@ -167,16 +165,17 @@ footer {
 
 #suggestions-form {
     margin-bottom: 20px;
+    float: left;
 }
 
 /*Styling for Resources page*/
 
 #odd-resources {
     text-align: center;
-    display: block;
 }
 #odd-resources a {
-    padding: 20px;
+    padding: 5px;
+    display: block;
 }
 #odd-resources a:hover, #odd-resources a:focus{
     text-decoration: underline;
