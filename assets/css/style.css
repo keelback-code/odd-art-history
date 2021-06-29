@@ -146,6 +146,8 @@ footer {
 
 .suggestions-form-text {
     font-family: 'Lato', sans-serif;
+    width: 80%;
+    float: left;
 }
 
 #artwork-reason {
@@ -164,7 +166,6 @@ footer {
 }
 
 #suggestions-form {
-    float: left; 
     margin-bottom: 20px;
 }
 
@@ -179,6 +180,13 @@ footer {
 }
 #odd-resources a:hover, #odd-resources a:focus{
     text-decoration: underline;
+}
+
+#odd-resources iframe {
+    border-radius: 6px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: #ac3d5a;
 }
 
 /*Media queries*/
