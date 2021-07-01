@@ -1,37 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Source+Sans+Pro&display=swap');
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     color: #20344a;
-    background-color: #fff7f0; 
+    background-color: #fff7e9; 
 }
 
 h1, h3 {
     font-family: 'Lato', sans-serif;
-    color: #20344a;
     float: left;
 }
 
 .nav-bar a, footer a, body a {
     text-decoration: none;
+    color: #20344a;
 } 
 
 .nav-bar {
     list-style-type: none;
-    float: right;   
+    float: right;
 }
 
-/*Solution for how to float menu items right without changing their order from user huntermacd on stackoverflow post: https://stackoverflow.com/questions/20920265/horizontal-menu-how-to-float-right-but-keep-the-menu-items-in-the-correct-order*/
+/*Solution for how to float nav bar items right without changing their order from user huntermacd on stackoverflow post: https://stackoverflow.com/questions/20920265/horizontal-menu-how-to-float-right-but-keep-the-menu-items-in-the-correct-order*/
 .nav-bar li {
     float: left;
 }
 
-.header-text, .header-text li {   
-    line-height: 50px;
-    padding: 20px;
+header a {   
+    vertical-align: middle;
+    padding: 10px;
 }
 
-
+h3 {
+    bottom: 0;
+    padding: 10px;
+}
 
 .nav-bar li:hover, #gallery-images a:hover, footer a:hover {
     text-decoration: underline;
@@ -41,14 +44,10 @@ h1, h3 {
     text-decoration: underline;
 }
 
-
-
-
 footer {
     clear: both;
     padding: 10px;
 }
-
 
 /* gallery images*/
 
@@ -132,7 +131,7 @@ footer {
     text-align: center;
     display: block;
     text-decoration: none;
-    color: #f4f7f7;
+    color: #20344a;
     padding-bottom: 20px;
 }
 .painting img {
