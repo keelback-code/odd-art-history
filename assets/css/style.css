@@ -2,31 +2,36 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    color: #f4f7f7;
-    background-color: #20344a;
+    color: #20344a;
+    background-color: #fff7f0; 
 }
 
 h1, h3 {
-    font-family: 'Merriweather', serif;
-    margin-left: 10px;
-    text-align: center;
-}
-
-#nav-mobile {
-    display: none;
+    font-family: 'Lato', sans-serif;
+    color: #20344a;
+    float: left;
 }
 
 .nav-bar a, footer a, body a {
     text-decoration: none;
-    color: #f4f7f7;
 } 
 
-.nav-bar li {
-    display: inline;
+.nav-bar {
     list-style-type: none;
-    margin: 0;
-    padding-right: 20px;
+    float: right;   
 }
+
+/*Solution for how to float menu items right without changing their order from user huntermacd on stackoverflow post: https://stackoverflow.com/questions/20920265/horizontal-menu-how-to-float-right-but-keep-the-menu-items-in-the-correct-order*/
+.nav-bar li {
+    float: left;
+}
+
+.header-text, .header-text li {   
+    line-height: 50px;
+    padding: 20px;
+}
+
+
 
 .nav-bar li:hover, #gallery-images a:hover, footer a:hover {
     text-decoration: underline;
@@ -36,14 +41,12 @@ h1, h3 {
     text-decoration: underline;
 }
 
-.nav-bar, footer {
-    background-color: #ac3d5a;
-    padding: 10px;
-    display: block;
-}
+
+
 
 footer {
     clear: both;
+    padding: 10px;
 }
 
 
@@ -66,10 +69,9 @@ footer {
     height: 400px;
     border-radius: 6px;
     background-position: center;
-    border-style: outset;
-    border-width: 5px;
-    border-color: #ac3d5a; 
+    border: 5px #b4133e outset; 
     display: block;
+    clear: both;
 }
 
 #gallery-images a {
@@ -136,9 +138,7 @@ footer {
 .painting img {
     width: 80vw;
     border-radius: 6px;
-    border-style: outset;
-    border-width: 5px;
-    border-color: #ac3d5a;
+    border: 5px #b4133e outset; 
     margin: auto; 
 }
 
@@ -161,8 +161,7 @@ footer {
 }
 
 #submit-button:hover, #submit-button:focus {
-    border-color: #ac3d5a;
-    border-width: 5px;
+    border: 5px #b4133e outset; 
     background-color: #20344a;
     color: #f4f7f7;
 }
@@ -187,9 +186,7 @@ footer {
 
 #odd-resources iframe {
     border-radius: 6px;
-    border-style: outset;
-    border-width: 5px;
-    border-color: #ac3d5a;
+    border: 5px #b4133e outset; 
 }
 
 /*Media queries*/
@@ -210,14 +207,6 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
-    #nav-main {
-        display: none;
-    }
-
-    #nav-mobile {
-        display: unset;
-    }
-
     .suggestions-form-text {
         width: 80vw;
     }
