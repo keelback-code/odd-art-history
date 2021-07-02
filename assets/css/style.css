@@ -6,9 +6,13 @@ body {
     background-color: #fff7e9; 
 }
 
-h1, h3 {
+h1, .header-text-subtitle {
     font-family: 'Lato', sans-serif;
     float: left;
+}
+
+.page-titles {
+    font-family: 'Lato', sans-serif;
 }
 
 .nav-bar a, footer a, body a {
@@ -31,6 +35,7 @@ h1, h3 {
     padding: 10px;
 }
 
+/*Received help on aligning title text from Alan in tutor assistance*/
 .header-text-subtitle {
     margin-top: 52px;
     padding: 10px;
@@ -133,9 +138,10 @@ footer {
     text-decoration: none;
     color: #20344a;
     padding-bottom: 20px;
+    clear: both;
 }
 .painting img {
-    width: 80vw;
+    width: 60vw;
     border-radius: 6px;
     border: 5px #852a0d outset; 
     margin: auto; 
@@ -148,21 +154,21 @@ footer {
 /*Styling for Suggestions page*/
 
 .suggestions-form-text {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #artwork-reason {
     font-size: smaller;
 }
 
-#suggestions-article h3, #suggestions-article p {
+#suggestions-article h2, #suggestions-article p {
+    clear: both;
     text-align: center;
 }
 
 #submit-button:hover, #submit-button:focus {
-    border: 5px #852a0d outset; 
-    background-color: #20344a;
-    color: #f4f7f7;
+    border: 5px #852a0d outset;
+    color: #20344a;
 }
 
 #suggestions-form {
@@ -170,10 +176,15 @@ footer {
     float: left;
 }
 
+fieldset {
+    border: 5px #852a0d outset;
+}
+
 /*Styling for Resources page*/
 
 #odd-resources {
     text-align: center;
+    clear: both;
 }
 #odd-resources a {
     padding: 5px;
