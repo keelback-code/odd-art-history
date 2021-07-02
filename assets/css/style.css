@@ -26,18 +26,13 @@ h1, h3 {
     float: left;
 }
 
-/*header a {   
-    vertical-align: middle;
+.header-text, .header-text li {
+    line-height: 75px;
     padding: 10px;
 }
 
-h3 {
-    bottom: 0;
-    padding: 10px;
-}*/
-
-.header-text, .header-text li {
-    vertical-align: middle;
+.header-text-subtitle {
+    margin-top: 52px;
     padding: 10px;
 }
 
