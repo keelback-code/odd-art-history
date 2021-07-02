@@ -26,13 +26,18 @@ h1, h3 {
     float: left;
 }
 
-header a {   
+/*header a {   
     vertical-align: middle;
     padding: 10px;
 }
 
 h3 {
     bottom: 0;
+    padding: 10px;
+}*/
+
+.header-text, .header-text li {
+    vertical-align: middle;
     padding: 10px;
 }
 
@@ -68,7 +73,7 @@ footer {
     height: 400px;
     border-radius: 6px;
     background-position: center;
-    border: 5px #b4133e outset; 
+    border: 5px #852a0d outset; 
     display: block;
     clear: both;
 }
@@ -137,7 +142,7 @@ footer {
 .painting img {
     width: 80vw;
     border-radius: 6px;
-    border: 5px #b4133e outset; 
+    border: 5px #852a0d outset; 
     margin: auto; 
 }
 
@@ -160,7 +165,7 @@ footer {
 }
 
 #submit-button:hover, #submit-button:focus {
-    border: 5px #b4133e outset; 
+    border: 5px #852a0d outset; 
     background-color: #20344a;
     color: #f4f7f7;
 }
@@ -185,7 +190,7 @@ footer {
 
 #odd-resources iframe {
     border-radius: 6px;
-    border: 5px #b4133e outset; 
+    border: 5px #852a0d outset; 
 }
 
 /*Media queries*/
