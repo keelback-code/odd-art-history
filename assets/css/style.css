@@ -151,6 +151,13 @@ footer {
     text-decoration: underline;
 }
 
+.visual-divider {
+    background-color: #852a0d;
+    height: 10px;
+    width: 100%;
+    clear: both;
+}
+
 /*Styling for Suggestions page*/
 
 .suggestions-form-text {
