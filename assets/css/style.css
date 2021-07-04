@@ -213,11 +213,11 @@ fieldset {
 /*Media queries*/
 
 @media screen and (max-width: 950px){
-    .bushes-image {
+    #bushes-image {
         background: url("../images/fragonard-swing-bushes-cropped-mobile.jpg");
     }
 
-    .balloon-image {
+    #balloons-image {
         background: url("../images/boucher-setting-of-the-sun-balloon-cropped-mobile.jpg");
     }
 

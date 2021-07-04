@@ -4,15 +4,15 @@
 
 [Purpose](#purpose)
 
-[User Stories](#user-stories) 
-
-[UX Considerations](#ux-considerations) 
-
-[Wireframes](#wireframes)
-
-[Design colour schemes and typography](#design-colour-schemes-and-typography)
+[Screenshots](#screenshots)
 
 [Features](#features)
+
+[User Stories](#user-stories) 
+
+[Design and UX](#design-and-ux) 
+* [Wireframes](#wireframes)
+* [Colour schemes and typography](#colour-schemes-and-typography)
 
 [Technologies](#technologies)
 
@@ -32,6 +32,36 @@ The site was built to fulfill the requirements of Project Portfolio 1 for the Co
 It can be found here:
 
 [Odd Art History](https://elyserh.github.io/odd-art-history/)
+
+## Screenshots
+
+## Features
+
+Features across all pages
+* Clear header and site ‘slogan’, making the purpose clear to users of the site.
+* Navigation bar listing Gallery, Odd Resources, Suggestions and Say Hi (which will link to Facebook), allowing for easy and intuitive navigation of site for all users. On desktop links will be underlined when they are hovered over to indicate to the user that they are clickable.
+* Footer mirroring design of navigation bar, which will link back to top of page, allowing for further easy navigation. Link will also be underlined when hovered over.
+* Header will always remain at top of page and footer will always remain at bottom of page as user scrolls in order to allow for maximum view of visual content. The main purpose of the footer will be to link to the top of the page, so that the user does not have to scroll back up.
+* The header 'Odd Art History' is also a link to the gallery page
+
+Gallery (home/landing page)
+* Three main images that link to painting pages - each one is a ‘hint’ of the painting, with a hint word and hint image. The aim of the images is to make the user curious about the content.
+* Images are page width on all devices with the hint word as a link to the painting page.
+
+Painting pages (x3, ‘heels’, ‘bushes’, ‘balloons’)
+* Spokes from gallery hub (design choice explained in UX section of readme).
+* Full view of painting with label, when clicked on will change to close up of detail talked about in text.
+* Text about painting with link back to gallery page for easy navigation, deliberately providing multiple ways to return to the landing page
+* Links to image and text references clearly provided, with icons from Fontawesome as added visual cues.
+
+Suggestions page
+* Easy to use form for users to suggest paintings - make it simple for users to submit paintings
+* Placeholder text instead of labels to make form neat and tidy; aria labels with same text for accessibility.
+* Optional to provide contact details (theoretically if site user chooses a  painting, they would contact the user and ask if okay to use their name, or possibly for more info).
+
+Odd Resources page
+* Page with links to further information - hopefully the site will have piqued the user's interest in weird art history and a easy-to-find page of further information will help them on their journey.
+* There will be an embedded video, as a teaser for one of the resources; it will not autoplay.
 
 ## User Stories
 
@@ -63,7 +93,7 @@ As the owner of the site:
 * I want users to be able to contact me to suggest paintings or just to get in touch
 * I want to provide the same experience for all users
 
-## UX Considerations
+## Design and UX
 
 For part of the site I used a hub and spoke design, with the Gallery (landing) page as the hub and the 3 painting pages as spokes. These pages do not appear on the navigation bar but can only be accessed from the links on the Gallery page.
 The reason for this design for the paintings is to bring a sense of playfulness to the website. It would be simple to add in nav links for each painting, either with the painting title or their ‘hint’ word (heels, bushes, balloon), but I feel this would take away from the intrigue and mystery of discovering information about the paintings.
@@ -90,44 +120,17 @@ Wireframes were produced using Balsamiq. Ultimately the final site followed the 
   <img src="assets/images/readme-images/wireframe-suggestions.png">
 </p>
 
-## Design colour schemes and typography
+## Colour schemes and typography
 
-I used colormind.io to choose a colour scheme, and Google Fonts for the typography. 
+I used Google Fonts for the typography, and initially used colormind.io to choose a colour scheme. Visual design is not my forte, so I reached out to my sister Amelia Horan for assistance with the visual design. I wanted to include a red accent, to mirror Louis XIV’s heels in Rigaud’s portrait, and used eyedropper.org to pick a colour from the original picture (#852a0d). A cream background (#fff7e9) was chosen for the whole site, to provide a contrast but not be too stark.
+The main text is a dark navy, which is from the original colormind scheme (#20344a).
 
 <p align="center">
-  <img src="assets/images/readme-images/colormind-palette-snip-1-red-hlight.JPG">
+  <img src="assets/images/readme-images/oarht-final-colors.JPG">
 </p>
 
-I ended up altering the colour scheme a little as the light blue I originally chose did not have a high enough contrast with the text. #49AECB was replaced with #8FDCF1 using the Gitpod dropper tool. I chose a scheme with one red accent, to mirror Louis XIV’s heels in Rigaud’s portrait.
+For the fonts, Lato is used for the headings/titles and Source Sans Pro for the main content, with Sans-Serif provided as a back-up for both. A modern font was deliberately chosen to juxtapose the paintings; a font mimicking an older style of script might seem tired and even cheesy. If you visit websites for major galleries, for example the Louvre and Wallace Collection where the paintings I have chosen are housed, the websites are sleek and modern.
 
-For the fonts, Lato is used for the headings/titles and Merriweather for the main content, with back-ups provided for both.
-
-## Features
-
-Features across all pages
-* Clear header and site ‘slogan’, making the purpose clear to users of the site.
-* Navigation bar listing Gallery, Odd Resources, Suggestions and Say Hi (which will link to Facebook), allowing for easy navigation of site for all users.
-* Footer mirroring design of navigation bar, which will link back to top of page.
-* Header will always remain at top of page and footer will always remain at bottom of page as user scrolls in order to allow for maximum view of visual content. The main purpose of the footer will be to link to the top of the page, so that the user does not have to scroll back up.
-
-Gallery (home/landing page)
-* Three main images that link to painting pages - each one is a ‘hint’ of the painting, with a hint word and hint image. The aim of the images is to make the user curious about the content.
-* Images are page width on all devices with the hint word as a link to the painting page.
-
-Painting pages (x3, ‘heels’, ‘bushes’, ‘balloons’)
-* Spokes from gallery hub (design choice explained in UX section of readme).
-* Full view of painting with label, when clicked on will change to close up of detail talked about in text.
-* Text about painting with link back to gallery page for easy navigation, deliberately providing multiple ways to return to the landing page
-* Links to image and text references clearly provided, with icons from Fontawesome as added visual cues.
-
-Suggestions page
-* Easy to use form for users to suggest paintings - make it simple for users to submit paintings
-* Placeholder text instead of labels to make form neat and tidy; aria labels with same text for accessibility.
-* Optional to provide contact details (theoretically if site user chooses a  painting, they would contact the user and ask if okay to use their name, or possibly for more info).
-
-Odd Resources page
-* Page with links to further information - hopefully the site will have piqued the user's interest in weird art history and a easy-to-find page of further information will help them on their journey.
-* There will be an embedded video, as a teaser for one of the resources; it will not autoplay.
 
 ## Technologies
 
