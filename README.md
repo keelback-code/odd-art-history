@@ -42,26 +42,26 @@ Features across all pages
 * Navigation links listing Gallery, Odd Resources, Suggestions and Say Hi (which will link to Facebook), allowing for easy and intuitive navigation of site for all users. On desktop links will be underlined when they are hovered over to indicate to the user that they are clickable.
 * Footer mirroring design of navigation links, which will link back to top of page, allowing for further easy navigation. Link will also be underlined when hovered over.
 * Header will always remain at top of page (will not be sticky) and footer will always remain at bottom of page as user scrolls in order to allow for maximum view of visual content. Easy return to the home page will be provided to counteract this feature. The main purpose of the footer will be to link to the top of the page, so that the user does not have to scroll back up.
-* The header 'Odd Art History' is also a link to the gallery page. It is not underlined when hovered over because it is not part of the navigation bar, but it has been made a link because this is common on web pages and therefore intuitive to modern web users.
+* The header 'Odd Art History' is also a link to the gallery page. It is not underlined when hovered over because it is not part of the navigation bar, but it is a link because this is common on web pages and therefore intuitive to modern web users.
 
 Gallery (home/landing page)
 * Three main images with text that links to painting pages - each one is a ‘hint’ of the painting, with a hint word and hint image. The aim of the images is to make the user curious about the content. 
-* The 'hint' link/text on each image is large and contrasting, to make it obvious to the user that it is important. It is also underlined when it is hovered over for the same reason.
-* Images are page width on all devices; the large size of the paintings is mimicking a gallery.
+* The 'hint' link/text on each image is large and contrasting, to make it obvious to the user that it is important. It is also underlined when hovered over for the same reason.
+* Images are page width on all devices; the large size of the paintings is mimicking a gallery and providing appealling visual content.
 
 Painting pages (x3, ‘heels’, ‘bushes’, ‘balloons’)
-* Spokes from gallery hub (design choice explained in UX section of readme).
+* Spokes from gallery hub (design choice and value explained in UX section of readme).
 * Full view of painting with label, when clicked on will change to close up of detail talked about in text (maybe). Similarly to the home page, the images are presented fairly large in order to mimick a gallery experience.
-* Informative and interesting text about painting with link back to gallery page for easy navigation, deliberately providing multiple ways to return to the landing page to counteract spoke aspect.
+* Informative and interesting text about painting with link back to gallery page for easy navigation, deliberately providing multiple ways to return to the landing page to counteract spoke aspect when needed.
 * Links to image and text references clearly provided, with icons from Fontawesome as added visual cues.
 
 Suggestions page
-* Easy to use form for users to suggest paintings - make it simple for users to submit paintings with adequate space.
+* Easy to use form for users to suggest paintings; make it simple for users to submit paintings with adequate space.
 * Placeholder text instead of labels to make form neat and tidy; aria labels with same text for accessibility.
 * Optional to provide contact details (theoretically if site owner chooses a painting, they would contact the user and ask if okay to use their name, or possibly for more info).
 
 Odd Resources page
-* Page with links to further information - hopefully the site will have piqued the user's interest in odd art history and an easy-to-find page of further information will help them on their journey.
+* Page with links to further information; hopefully the site will have piqued the user's interest in odd art history and an easy-to-find page of further information will help them on their journey.
 * There will be an embedded video, as a teaser for one of the resources; it will not autoplay. The video thumbnail will also add visual interest to the page.
 
 ## User Stories
@@ -97,7 +97,7 @@ As the owner of the site:
 ## Design and UX
 
 For part of the site I used a hub and spoke design, with the Gallery (landing/home) page as the hub and the 3 painting pages as spokes. These pages do not appear on the navigation bar but can only be accessed from the links on the Gallery page.
-The reason for this design for the painting pages is to bring a sense of playfulness to the website. It would be simple to add in nav links for each painting, either with the painting title or their ‘hint’ word (heels, bushes, balloons), but I feel this would take away from the intrigue and mystery of discovering information about the paintings.
+The reason for this design for the painting pages is to bring a sense of playfulness to the website. It would be simple to add in nav links for each painting, either with the painting title or their ‘hint’ word (heels, bushes, balloons), but I feel this would take away from the intrigue and mystery of discovering information about the paintings. The experience will be almost like seeing a glimpse of a painting through a gallery doorway and turning around to go and see the painting. On the Gallery page I have added aria labels which I hope bring this same sense of playfulness and intrigue for a user using a screenreader.
 
 I have included the Gallery, Odd Resources and Suggestions page on the nav bar so that the rest of the site is still clear and simple to navigate, as I don’t want the user to be frustrated or overloaded. I would like to introduce a small amount of playfulness, interactivity and intrigue but not so much that it becomes tiring or frustrating.
 
@@ -105,32 +105,36 @@ I have included the Gallery, Odd Resources and Suggestions page on the nav bar s
 
 Wireframes were produced using Balsamiq. Ultimately the final site followed the broad strokes of the designs but the key point that differed is the title, subtitle and navigation links all being on one axis. I originally built the site as per the design in these wireframes, but the content in these elements does not take up much space and a lot of empty space was created. Visual design is not my forte, so I reached out to my sister Amelia Horan for assistance with the visual design. After talking through the design with her, I ended up with the design shown in the readme screenshots.
 
+Gallery page
 <p align="center">
   <img src="assets/images/readme-images/wireframe-gallery.png">
 </p>
 
+Painting page
 <p align="center">
   <img src="assets/images/readme-images/wireframe-painting.png">
 </p>
 
+Odd Resources page
 <p align="center">
   <img src="assets/images/readme-images/wireframe-resources.png">
 </p>
 
+Suggestions page
 <p align="center">
   <img src="assets/images/readme-images/wireframe-suggestions.png">
 </p>
 
 ## Colour schemes and typography
 
-I used Google Fonts for the typography, and initially used colormind.io to choose a colour scheme. After speaking to my sister Amelia about the design we narrowed the colors down to the 3 shown below. I wanted to include a red accent, to mirror Louis XIV’s heels in Rigaud’s portrait, and used eyedropper.org to pick a colour from the original picture (#852a0d). A cream background (#fff7e9) was chosen for the whole site, to provide a contrast but not be too stark.
+I used Google Fonts for the typography, and initially used colormind.io to choose a colour scheme. After speaking to my sister Amelia about the design we narrowed the colors down to the 3 shown below. I wanted to include a red accent, to mirror Louis XIV’s heels in Rigaud’s portrait, and used eyedropper.org to pick the colour from the original picture (#852a0d). A cream background (#fff7e9) was chosen for the whole site, to provide a contrast but not be too stark.
 The main text is a dark navy, which is from the original colormind scheme (#20344a).
 
 <p align="center">
   <img src="assets/images/readme-images/oarht-final-colors.JPG">
 </p>
 
-For the fonts, Lato is used for the headings/titles and Source Sans Pro for the main content, with Sans-Serif provided as a back-up for both. A modern font was deliberately chosen to juxtapose the paintings; a font mimicking an older style of script might seem tired and even cheesy. If you visit websites for major galleries, for example the Louvre and Wallace Collection where the paintings I have chosen are housed, the websites are sleek and modern.
+For the fonts, Lato is used for the headings/titles and Source Sans Pro for the main content, with Sans-Serif provided as a back-up for both. A modern font was deliberately chosen to juxtapose the paintings; a font mimicking an older style of script might seem tired and even cheesy. My tutor, Maranatha Ilesanmi, suggested that for research I visit similar websites, including gallery websites. A common theme on websites for major galleries, for example the Louvre and Wallace Collection where the paintings I have chosen are housed, is that they are sleek and modern.
 
 
 ## Technologies
@@ -172,12 +176,12 @@ The live link is:
 
 Content
 
-* For the Hannah Gadsby video I used the code that YouTube provides for embedding videos, but removed autoplay, changed the size and altered the title attribute for accessibility.
+* For the Hannah Gadsby video I used the code that YouTube provides for embedding videos, but removed autoplay, changed the size and altered the title attribute and changed it to an aria-label for accessibility across platforms.
 * Much of the text content on the painting pages comes from my own knowledge as an Art History major at the University of Sydney but has been researched for accuracy and individual references are listed on each page. (list links?)
 * gallery toggle code ref if implemented - https://www.digitalocean.com/community/tutorials/css-css-only-click-handler
 * Solution for how to float navigation bar items right without changing their order from user huntermacd on stackoverflow post: https://stackoverflow.com/questions/20920265/horizontal-menu-how-to-float-right-but-keep-the-menu-items-in-the-correct-order*/
 * Received assistance from Alan in tutor support on aligning subtitle text.
-* Assistance with visual design from Amelia Horan, as mentioned in design section of readme.
+* Assistance with visual design from Amelia Horan, as mentioned in Design section of readme.
 
 
 Media
