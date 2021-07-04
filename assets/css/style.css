@@ -25,7 +25,7 @@ h1, .header-text-subtitle {
     float: right;
 }
 
-/*Solution for how to float nav bar items right without changing their order from user huntermacd on stackoverflow post: https://stackoverflow.com/questions/20920265/horizontal-menu-how-to-float-right-but-keep-the-menu-items-in-the-correct-order*/
+/*Solution for how to float nav bar items right without changing their order from user huntermacd on stackoverflow post: https://stackoverflow.com/questions/20920265/horizontal-menu-how-to-float-right-but-keep-the-menu-items-in-the-correct-order */
 .nav-bar li {
     float: left;
 }
@@ -37,7 +37,7 @@ h1, .header-text-subtitle {
 
 /*Received help on aligning subtitle text from Alan in tutor assistance*/
 .header-text-subtitle {
-    margin-top: 52px;
+    margin-top: 47px;
     padding: 10px;
 }
 
@@ -98,44 +98,8 @@ footer {
     clear: both;
 }
 
+
 /*styling for all 3 painting pages*/
-
-/* positioning for toggling, temporarily removed, will come back and assess later
-
-#rigaud figure {
-    position: relative;
-    top: 0;
-    left: 0;
-}
-#rigaud-painting > img {
-    border-radius: 6px;
-    width: 50vw;
-    border: 5px #852a0d outset; 
-    position: relative;
-    top: 0;
-    left: 0;
-}
-
-#rigaud-painting-detail > img {
-    border-radius: 6px;
-    width: 25vw;
-    border: 5px #852a0d outset; 
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-*/
-
-/*Styling for clicking between two images, based on code from https://www.digitalocean.com/community/tutorials/css-css-only-click-handler
-
-#rigaud-painting-detail {
-    display: none;
-}
-
-#rigaud-painting-detail:target {
-    display: initial;
-}
-*/
 
 .painting {
     text-align: center;
@@ -156,6 +120,33 @@ footer {
 .painting-info a:hover, .painting-info a:focus {
     text-decoration: underline;
 }
+
+/*Styling for Heels/Rigaud toggle images (if it happens)*/
+
+#rigaud {
+    position: relative;
+    text-align: center;
+}
+
+#rigaud-painting img {
+    position: relative;
+}
+
+#rigaud-painting-detail img {
+    position: relative;
+    width: 30vw;   
+}
+
+/*Code for clicking between two Heels/Rigaud images based on code from https://www.digitalocean.com/community/tutorials/css-css-only-click-handler */
+
+#rigaud-painting-detail {
+    display: none;
+}
+
+#rigaud-painting-detail:target {
+    display: block;
+}
+
 
 
 /*Styling for Suggestions page*/
@@ -186,6 +177,7 @@ footer {
 fieldset {
     border: 5px #852a0d outset;
 }
+
 
 /*Styling for Resources page*/
 

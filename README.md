@@ -179,7 +179,7 @@ Content
 * For the Hannah Gadsby video I used the code that YouTube provides for embedding videos, but removed autoplay, changed the size and altered the title attribute and changed it to an aria-label for accessibility across platforms.
 * Much of the text content on the painting pages comes from my own knowledge as an Art History major at the University of Sydney but has been researched for accuracy and individual references are listed on each page. (list links?)
 * gallery toggle code ref if implemented - https://www.digitalocean.com/community/tutorials/css-css-only-click-handler
-* Solution for how to float navigation bar items right without changing their order from user huntermacd on stackoverflow post: https://stackoverflow.com/questions/20920265/horizontal-menu-how-to-float-right-but-keep-the-menu-items-in-the-correct-order*/
+* Solution for how to float navigation bar items right without changing their order from user huntermacd on stackoverflow post: https://stackoverflow.com/questions/20920265/horizontal-menu-how-to-float-right-but-keep-the-menu-items-in-the-correct-order
 * Received assistance from Alan in tutor support on aligning subtitle text.
 * Assistance with visual design from Amelia Horan, as mentioned in Design section of readme.
 
