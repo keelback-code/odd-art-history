@@ -39,29 +39,30 @@ It can be found here:
 
 Features across all pages
 * Clear header and site ‘slogan’, making the purpose clear to users of the site.
-* Navigation bar listing Gallery, Odd Resources, Suggestions and Say Hi (which will link to Facebook), allowing for easy and intuitive navigation of site for all users. On desktop links will be underlined when they are hovered over to indicate to the user that they are clickable.
-* Footer mirroring design of navigation bar, which will link back to top of page, allowing for further easy navigation. Link will also be underlined when hovered over.
-* Header will always remain at top of page and footer will always remain at bottom of page as user scrolls in order to allow for maximum view of visual content. The main purpose of the footer will be to link to the top of the page, so that the user does not have to scroll back up.
-* The header 'Odd Art History' is also a link to the gallery page
+* Navigation links listing Gallery, Odd Resources, Suggestions and Say Hi (which will link to Facebook), allowing for easy and intuitive navigation of site for all users. On desktop links will be underlined when they are hovered over to indicate to the user that they are clickable.
+* Footer mirroring design of navigation links, which will link back to top of page, allowing for further easy navigation. Link will also be underlined when hovered over.
+* Header will always remain at top of page (will not be sticky) and footer will always remain at bottom of page as user scrolls in order to allow for maximum view of visual content. Easy return to the home page will be provided to counteract this feature. The main purpose of the footer will be to link to the top of the page, so that the user does not have to scroll back up.
+* The header 'Odd Art History' is also a link to the gallery page. It is not underlined when hovered over because it is not part of the navigation bar, but it has been made a link because this is common on web pages and therefore intuitive to modern web users.
 
 Gallery (home/landing page)
-* Three main images that link to painting pages - each one is a ‘hint’ of the painting, with a hint word and hint image. The aim of the images is to make the user curious about the content.
-* Images are page width on all devices with the hint word as a link to the painting page.
+* Three main images with text that links to painting pages - each one is a ‘hint’ of the painting, with a hint word and hint image. The aim of the images is to make the user curious about the content. 
+* The 'hint' link/text on each image is large and contrasting, to make it obvious to the user that it is important. It is also underlined when it is hovered over for the same reason.
+* Images are page width on all devices; the large size of the paintings is mimicking a gallery.
 
 Painting pages (x3, ‘heels’, ‘bushes’, ‘balloons’)
 * Spokes from gallery hub (design choice explained in UX section of readme).
-* Full view of painting with label, when clicked on will change to close up of detail talked about in text.
-* Text about painting with link back to gallery page for easy navigation, deliberately providing multiple ways to return to the landing page
+* Full view of painting with label, when clicked on will change to close up of detail talked about in text (maybe). Similarly to the home page, the images are presented fairly large in order to mimick a gallery experience.
+* Informative and interesting text about painting with link back to gallery page for easy navigation, deliberately providing multiple ways to return to the landing page to counteract spoke aspect.
 * Links to image and text references clearly provided, with icons from Fontawesome as added visual cues.
 
 Suggestions page
-* Easy to use form for users to suggest paintings - make it simple for users to submit paintings
+* Easy to use form for users to suggest paintings - make it simple for users to submit paintings with adequate space.
 * Placeholder text instead of labels to make form neat and tidy; aria labels with same text for accessibility.
-* Optional to provide contact details (theoretically if site user chooses a  painting, they would contact the user and ask if okay to use their name, or possibly for more info).
+* Optional to provide contact details (theoretically if site owner chooses a painting, they would contact the user and ask if okay to use their name, or possibly for more info).
 
 Odd Resources page
-* Page with links to further information - hopefully the site will have piqued the user's interest in weird art history and a easy-to-find page of further information will help them on their journey.
-* There will be an embedded video, as a teaser for one of the resources; it will not autoplay.
+* Page with links to further information - hopefully the site will have piqued the user's interest in odd art history and an easy-to-find page of further information will help them on their journey.
+* There will be an embedded video, as a teaser for one of the resources; it will not autoplay. The video thumbnail will also add visual interest to the page.
 
 ## User Stories
 
@@ -95,10 +96,10 @@ As the owner of the site:
 
 ## Design and UX
 
-For part of the site I used a hub and spoke design, with the Gallery (landing) page as the hub and the 3 painting pages as spokes. These pages do not appear on the navigation bar but can only be accessed from the links on the Gallery page.
-The reason for this design for the paintings is to bring a sense of playfulness to the website. It would be simple to add in nav links for each painting, either with the painting title or their ‘hint’ word (heels, bushes, balloon), but I feel this would take away from the intrigue and mystery of discovering information about the paintings.
+For part of the site I used a hub and spoke design, with the Gallery (landing/home) page as the hub and the 3 painting pages as spokes. These pages do not appear on the navigation bar but can only be accessed from the links on the Gallery page.
+The reason for this design for the painting pages is to bring a sense of playfulness to the website. It would be simple to add in nav links for each painting, either with the painting title or their ‘hint’ word (heels, bushes, balloons), but I feel this would take away from the intrigue and mystery of discovering information about the paintings.
 
-I have included the Gallery, Odd Resources and Suggestions page on the nav bar so that the rest of the site is still clear and simple to navigate, as I don’t want the users to be frustrated or overloaded. I would like to introduce a small amount of playfulness and intrigue but not so much that it becomes tiring or frustrating.
+I have included the Gallery, Odd Resources and Suggestions page on the nav bar so that the rest of the site is still clear and simple to navigate, as I don’t want the user to be frustrated or overloaded. I would like to introduce a small amount of playfulness, interactivity and intrigue but not so much that it becomes tiring or frustrating.
 
 ## Wireframes
 
@@ -140,7 +141,7 @@ Languages used:
 
 Frameworks, Libraries and Programs Used:
 * Google Fonts - for the typography
-* Colormind.io - for the colour scheme
+* Colormind.io and Eyedropper.org - for the colour scheme
 * Wikimedia Commons - for the painting images
 * TinyJPG - for compressing the larger images
 * Balsamiq - for creating the wireframes in the design stage
@@ -169,15 +170,20 @@ The live link is:
 
 ## Credits
 
-Code
-
-For the Hannah Gadsby video I used the code that YouTube provides for embedding videos, but removed autoplay, changed the size and altered the title attribute.
-
-Images
-
-All images were taken from Wikimedia commons and are free to use. References are provided on each page. The gallery page uses the same source image as the painting pages.
-
 Content
 
-Much of the content comes from my own knowledge as an Art History major at the University of Sydney but has been researched for accuracy and references are listed on each page.
+* For the Hannah Gadsby video I used the code that YouTube provides for embedding videos, but removed autoplay, changed the size and altered the title attribute for accessibility.
+* Much of the text content on the painting pages comes from my own knowledge as an Art History major at the University of Sydney but has been researched for accuracy and individual references are listed on each page.
+* gallery toggle code ref if implemented - https://www.digitalocean.com/community/tutorials/css-css-only-click-handler
+* Solution for how to float navigation bar items right without changing their order from user huntermacd on stackoverflow post: https://stackoverflow.com/questions/20920265/horizontal-menu-how-to-float-right-but-keep-the-menu-items-in-the-correct-order*/
+* Received assistance from Alan in tutor support on aligning subtitle text
+
+
+Media
+
+* All images were taken from Wikimedia commons and are in the public domain. References are provided on each page. The gallery page on all viewports uses the same source image as the painting pages.
+
+
+
+
 

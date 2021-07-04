@@ -35,7 +35,7 @@ h1, .header-text-subtitle {
     padding: 10px;
 }
 
-/*Received help on aligning title text from Alan in tutor assistance*/
+/*Received help on aligning subtitle text from Alan in tutor assistance*/
 .header-text-subtitle {
     margin-top: 52px;
     padding: 10px;
@@ -110,9 +110,7 @@ footer {
 #rigaud-painting > img {
     border-radius: 6px;
     width: 50vw;
-    border-style: outset;
-    border-width: 5px;
-    border-color: #ac3d5a;
+    border: 5px #852a0d outset; 
     position: relative;
     top: 0;
     left: 0;
@@ -121,9 +119,7 @@ footer {
 #rigaud-painting-detail > img {
     border-radius: 6px;
     width: 25vw;
-    border-style: outset;
-    border-width: 150px;
-    border-color: #ac3d5a;
+    border: 5px #852a0d outset; 
     position: absolute;
     top: 0;
     left: 0;
