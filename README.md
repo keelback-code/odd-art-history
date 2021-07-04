@@ -103,7 +103,7 @@ I have included the Gallery, Odd Resources and Suggestions page on the nav bar s
 
 ## Wireframes
 
-Wireframes were produced using Balsamiq. Ultimately the final site followed the broad strokes of the designs but some key points differed, such as the desktop view being center aligned instead of left aligned. I decided that a left aligned page on a simple desktop site was reminiscent of the websites from the 90s, and that a center aligned site has a more modern feel. The mobile and tablet views were already center aligned as this visually makes more sense and is more common on a smaller viewport.
+Wireframes were produced using Balsamiq. Ultimately the final site followed the broad strokes of the designs but the key point that differed is the title, subtitle and navigation links all being on one axis. I originally built the site as per the design in these wireframes, but the content in these elements does not take up much space and a lot of empty space was created. Visual design is not my forte, so I reached out to my sister Amelia Horan for assistance with the visual design. After talking through the design with her, I ended up with the design shown in the readme screenshots.
 
 <p align="center">
   <img src="assets/images/readme-images/wireframe-gallery.png">
@@ -123,7 +123,7 @@ Wireframes were produced using Balsamiq. Ultimately the final site followed the 
 
 ## Colour schemes and typography
 
-I used Google Fonts for the typography, and initially used colormind.io to choose a colour scheme. Visual design is not my forte, so I reached out to my sister Amelia Horan for assistance with the visual design. I wanted to include a red accent, to mirror Louis XIV’s heels in Rigaud’s portrait, and used eyedropper.org to pick a colour from the original picture (#852a0d). A cream background (#fff7e9) was chosen for the whole site, to provide a contrast but not be too stark.
+I used Google Fonts for the typography, and initially used colormind.io to choose a colour scheme. After speaking to my sister Amelia about the design we narrowed the colors down to the 3 shown below. I wanted to include a red accent, to mirror Louis XIV’s heels in Rigaud’s portrait, and used eyedropper.org to pick a colour from the original picture (#852a0d). A cream background (#fff7e9) was chosen for the whole site, to provide a contrast but not be too stark.
 The main text is a dark navy, which is from the original colormind scheme (#20344a).
 
 <p align="center">
@@ -173,10 +173,11 @@ The live link is:
 Content
 
 * For the Hannah Gadsby video I used the code that YouTube provides for embedding videos, but removed autoplay, changed the size and altered the title attribute for accessibility.
-* Much of the text content on the painting pages comes from my own knowledge as an Art History major at the University of Sydney but has been researched for accuracy and individual references are listed on each page.
+* Much of the text content on the painting pages comes from my own knowledge as an Art History major at the University of Sydney but has been researched for accuracy and individual references are listed on each page. (list links?)
 * gallery toggle code ref if implemented - https://www.digitalocean.com/community/tutorials/css-css-only-click-handler
 * Solution for how to float navigation bar items right without changing their order from user huntermacd on stackoverflow post: https://stackoverflow.com/questions/20920265/horizontal-menu-how-to-float-right-but-keep-the-menu-items-in-the-correct-order*/
-* Received assistance from Alan in tutor support on aligning subtitle text
+* Received assistance from Alan in tutor support on aligning subtitle text.
+* Assistance with visual design from Amelia Horan, as mentioned in design section of readme.
 
 
 Media
