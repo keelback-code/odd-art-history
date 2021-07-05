@@ -103,7 +103,7 @@ I have included the Gallery, Odd Resources and Suggestions page on the nav bar s
 
 ## Wireframes
 
-Wireframes were produced using Balsamiq. Ultimately the final site followed the broad strokes of the designs but the key point that differed is the title, subtitle and navigation links all being on one axis. I originally built the site as per the design in these wireframes, but the content in these elements does not take up much space and a lot of empty space was created. Visual design is not my forte, so I reached out to my sister Amelia Horan for assistance with the visual design. After talking through the design with her, I ended up with the design shown in the readme screenshots.
+Wireframes were produced using Balsamiq. Ultimately the final site followed the broad strokes of the designs but the key point that differed is that the title, subtitle and navigation links all ended up being on one axis, instead of having a separate navigation bar. I originally built the site as per the design in these wireframes, but the content in these elements does not take up much space and a lot of empty space was created. Visual design is not my forte, so I reached out to my sister Amelia Horan for assistance with the visual design. After talking through the design with her, I ended up with the design shown in the readme screenshots section.
 
 Gallery page
 <p align="center">
@@ -134,7 +134,7 @@ The main text is a dark navy, which is from the original colormind scheme (#2034
   <img src="assets/images/readme-images/oarht-final-colors.JPG">
 </p>
 
-For the fonts, Lato is used for the headings/titles and Source Sans Pro for the main content, with Sans-Serif provided as a back-up for both. A modern font was deliberately chosen to juxtapose the paintings; a font mimicking an older style of script might seem tired and even cheesy. My tutor, Maranatha Ilesanmi, suggested that for research I visit similar websites, including gallery websites. A common theme on websites for major galleries, for example the Louvre and Wallace Collection where the paintings I have chosen are housed, is that they are sleek and modern.
+For the fonts, Lato is used for the headings/titles and Source Sans Pro for the main content, with Sans-Serif provided as a back-up for both. A modern font was deliberately chosen to juxtapose the paintings on the site; a font mimicking an older style of script might seem tired and even cheesy. My tutor, Maranatha Ilesanmi, suggested that for research I visit similar websites, including gallery websites. A common theme on websites for major galleries, for example the Louvre and Wallace Collection where the paintings I have chosen are housed, is that they are sleek and modern.
 
 
 ## Technologies
