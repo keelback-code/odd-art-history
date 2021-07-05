@@ -8,7 +8,13 @@ body {
 
 h1, .header-text-subtitle {
     font-family: 'Lato', sans-serif;
-    /*float: left;*/
+    float: left;
+    color: #852a0d;
+}
+
+.header-text-subtitle {
+    opacity: 0.75;
+    font-size: smaller;
 }
 
 .header-div {
@@ -92,6 +98,7 @@ footer {
     text-decoration: none;
     color: #fff7e9;
     font-size: xxx-large;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 /*Styling for divider that is present at top and bottom of all pages except landing/gallery page*/
