@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,12 +10,15 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Odd Art History</title>
 </head>
+
 <body>
     <header>
-        <a href="index.html">
-            <h1 class="header-text">Odd Art History</h1>
-        </a>
-        <h2 class="header-text-subtitle">Odd facts about old paintings</h2>
+        <div class="header-div">
+            <a href="index.html">
+                <h1 class="header-text">Odd Art History</h1>
+            </a>
+            <h2 class="header-text-subtitle">Odd facts about old paintings</h2>
+        </div>
         <nav class="header-text">
             <ul class="nav-bar">
                 <li>
@@ -38,33 +42,45 @@
         <div class="visual-divider"></div>
         <header>
             <h2 class="page-titles">Make A Suggestion!</h2>
-            <p>Do you have an odd art history fact running around inside your brain? Please let me know! Fill in the form below, and if you are happy for me to contact you about it, feel free to leave your contact details. You might even be featured on the site!</p>
-        </header>   
-        <section id="suggestions-container"> <!--Take out this id if not used in the end-->
+            <p>Do you have an odd art history fact running around inside your brain? Please let me know! Fill in the
+                form below, and if you are happy for me to contact you about it, feel free to leave your contact
+                details. You might even be featured on the site!</p>
+        </header>
+        <section id="suggestions-container">
+            <!--Take out this id if not used in the end-->
             <form id="suggestions-form" method="POST" action="https://formdump.codeinstitute.net/">
-            <fieldset>
-                <legend>Make A Suggestion!</legend>
-                <input type="text" name="artwork-name" id="artwork-name" class="suggestions-form-text" placeholder="Enter name of artwork here" aria-label="Enter name of artwork here" size="70" required>
-                <br>
-                <textarea name="artwork-reason" id="artwork-reason" class="suggestions-form-text" placeholder="Enter reason for suggestion here" aria-label="Enter reason for suggestion here" rows="7" cols="70" required></textarea>
-                <br>
-                <input type="text" name="user-name" id="user-name" class="suggestions-form-text" placeholder="Your name (optional)" aria-label="Your name (optional)" size="70">
-                <br>
-                <input type="email" name="email-address" id="email-address" class="suggestions-form-text" placeholder="Your email address (optional)" aria-label="Your email address (optional)" size="70">
-                <br>
-                <br>
-                <input type="submit" value="Submit!" id="submit-button" class="suggestions-form-text">
-                <br>
-            </fieldset>
+                <fieldset>
+                    <legend>Make A Suggestion!</legend>
+                    <input type="text" name="artwork-name" id="artwork-name" class="suggestions-form-text"
+                        placeholder="Enter name of artwork here" aria-label="Enter name of artwork here" size="70"
+                        required>
+                    <br>
+                    <textarea name="artwork-reason" id="artwork-reason" class="suggestions-form-text"
+                        placeholder="Enter reason for suggestion here" aria-label="Enter reason for suggestion here"
+                        rows="7" cols="70" required></textarea>
+                    <br>
+                    <input type="text" name="user-name" id="user-name" class="suggestions-form-text"
+                        placeholder="Your name (optional)" aria-label="Your name (optional)" size="70">
+                    <br>
+                    <input type="email" name="email-address" id="email-address" class="suggestions-form-text"
+                        placeholder="Your email address (optional)" aria-label="Your email address (optional)"
+                        size="70">
+                    <br>
+                    <br>
+                    <input type="submit" value="Submit!" id="submit-button" class="suggestions-form-text">
+                    <br>
+                </fieldset>
             </form>
-        <br>
-        <div class="visual-divider"></div>
+            <br>
         </section>
-    <footer>
-        <div>
-            <a href="suggestions.html">Back to Top</a>
-        </div>
-    </footer>
+        <div class="visual-divider"></div>
+
+        <footer>
+            <div>
+                <a href="suggestions.html">Back to Top</a>
+            </div>
+        </footer>
     </article>
 </body>
+
 </html>

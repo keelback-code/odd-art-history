@@ -8,14 +8,18 @@ body {
 
 h1, .header-text-subtitle {
     font-family: 'Lato', sans-serif;
-    float: left;
+    /*float: left;*/
 }
 
+.header-div {
+    display: flex;
+    flex-direction: column;
+}
 .page-titles {
     font-family: 'Lato', sans-serif;
 }
 
-.nav-bar a, footer a, body a {
+body a {
     text-decoration: none;
     color: #20344a;
 } 
@@ -28,18 +32,19 @@ h1, .header-text-subtitle {
 /*Solution for how to float nav bar items right without changing their order from user huntermacd on stackoverflow post: https://stackoverflow.com/questions/20920265/horizontal-menu-how-to-float-right-but-keep-the-menu-items-in-the-correct-order */
 .nav-bar li {
     float: left;
+    padding: 10px;
 }
 
-.header-text, .header-text li {
+/*.header-text, .header-text li {
     line-height: 75px;
     padding: 10px;
 }
 
-/*Received help on aligning subtitle text from Alan in tutor assistance*/
+/*Received help on aligning subtitle text from Alan in tutor assistance
 .header-text-subtitle {
     margin-top: 47px;
     padding: 10px;
-}
+}*/
 
 .nav-bar li:hover, #gallery-images a:hover, footer a:hover {
     text-decoration: underline;
