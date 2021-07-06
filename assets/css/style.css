@@ -11,30 +11,20 @@ body a {
     color: #20344a;
 } 
 
+.page-titles {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
 header h1 {
     font-family: 'Lato', sans-serif;
     color: #852a0d;
 }
 
-.header-text-subtitle {
+header h2 {
     font-family: 'Lato', sans-serif;
     color: #852a0d;
     opacity: 0.65;
-}
-
-/*h1, .header-text-subtitle {
-    font-family: 'Lato', sans-serif;
-    /*float: left;
-    color: #852a0d;
-    display: flex;
-    
-}*/
-
-.header-div {
-    font-family: 'Lato', sans-serif;
-    color: #852a0d;
-    /*display: flex;
-    flex-direction: column;  */
 }
 
 header {
@@ -43,46 +33,29 @@ header {
     justify-content: space-between
 }
 
-/*.header-text-subtitle {
-    align-self: flex-start;
-}*/
-
 .nav-bar {
     list-style-type: none;
     display: flex;
     flex-direction: row;
 }
 
-.header-text {
+.nav-bar-container {
     display: flex;
     align-items: flex-end;
     flex-direction: row;
 }
 
-.page-titles {
-    font-family: 'Lato', sans-serif;
-}
-
-
-
-
-/*Solution for how to float nav bar items right without changing their order from user huntermacd on stackoverflow post: https://stackoverflow.com/questions/20920265/horizontal-menu-how-to-float-right-but-keep-the-menu-items-in-the-correct-order */
 .nav-bar li {
-    /*float: left;*/
     padding: 10px;
     font-size: larger;
 }
 
-/*.header-text, .header-text li {
-    line-height: 75px;
+footer {
+    clear: both;
     padding: 10px;
 }
 
-/*Received help on aligning subtitle text from Alan in tutor assistance
-.header-text-subtitle {
-    margin-top: 47px;
-    padding: 10px;
-}*/
+/*Styling for Gallery page*/
 
 .nav-bar li:hover, #gallery-images a:hover, footer a:hover {
     text-decoration: underline;
@@ -91,13 +64,6 @@ header {
 .nav-bar li:focus, #gallery-images a:focus, footer a:focus {
     text-decoration: underline;
 }
-
-footer {
-    clear: both;
-    padding: 10px;
-}
-
-/* gallery images*/
 
 #heels-image {
     background: url("../images/rigaud-louis-xiv-heels-cropped.jpg");
