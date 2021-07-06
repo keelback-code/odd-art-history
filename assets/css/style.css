@@ -6,39 +6,71 @@ body {
     background-color: #fff7e9; 
 }
 
-h1, .header-text-subtitle {
-    font-family: 'Lato', sans-serif;
-    float: left;
-    color: #852a0d;
-}
-
-.header-text-subtitle {
-    opacity: 0.75;
-    font-size: smaller;
-}
-
-.header-div {
-    display: flex;
-    flex-direction: column;
-}
-.page-titles {
-    font-family: 'Lato', sans-serif;
-}
-
 body a {
     text-decoration: none;
     color: #20344a;
 } 
 
+header h1 {
+    font-family: 'Lato', sans-serif;
+    color: #852a0d;
+}
+
+.header-text-subtitle {
+    font-family: 'Lato', sans-serif;
+    color: #852a0d;
+    opacity: 0.65;
+}
+
+/*h1, .header-text-subtitle {
+    font-family: 'Lato', sans-serif;
+    /*float: left;
+    color: #852a0d;
+    display: flex;
+    
+}*/
+
+.header-div {
+    font-family: 'Lato', sans-serif;
+    color: #852a0d;
+    /*display: flex;
+    flex-direction: column;  */
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+/*.header-text-subtitle {
+    align-self: flex-start;
+}*/
+
 .nav-bar {
     list-style-type: none;
-    float: right;
+    display: flex;
+    flex-direction: row;
 }
+
+.header-text {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+.page-titles {
+    font-family: 'Lato', sans-serif;
+}
+
+
+
 
 /*Solution for how to float nav bar items right without changing their order from user huntermacd on stackoverflow post: https://stackoverflow.com/questions/20920265/horizontal-menu-how-to-float-right-but-keep-the-menu-items-in-the-correct-order */
 .nav-bar li {
-    float: left;
+    /*float: left;*/
     padding: 10px;
+    font-size: larger;
 }
 
 /*.header-text, .header-text li {
@@ -98,6 +130,11 @@ footer {
     text-decoration: none;
     color: #fff7e9;
     font-size: xxx-large;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#bushes-div {
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
 }
 
