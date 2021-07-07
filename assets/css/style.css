@@ -132,6 +132,12 @@ footer {
     margin: auto; 
 }
 
+.painting-info p {
+    max-width: 60vw;
+    display: flex;
+    justify-content: center;
+}
+
 .painting-info a:hover, .painting-info a:focus {
     text-decoration: underline;
 }
@@ -175,8 +181,9 @@ footer {
 }
 
 #suggestions-article h2, #suggestions-article p {
-    clear: both;
+   
     text-align: center;
+    max-width: 60vw;
 }
 
 #submit-button:hover, #submit-button:focus {
@@ -186,7 +193,7 @@ footer {
 
 #suggestions-form {
     margin-bottom: 20px;
-    float: left;
+    
 }
 
 fieldset {
@@ -204,6 +211,11 @@ fieldset {
     text-align: center;
     clear: both;
 }
+
+#odd-resources p {
+    max-width: 60vw;
+}
+
 #odd-resources a {
     padding: 5px;
     display: block;
