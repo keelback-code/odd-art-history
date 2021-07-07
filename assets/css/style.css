@@ -13,6 +13,7 @@ body a {
 
 .page-titles {
     font-family: 'Lato', sans-serif;
+    text-align: center;
 }
 
 header h1 {
@@ -192,7 +193,11 @@ fieldset {
     border: 5px #852a0d outset;
 }
 
-
+#suggestions-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /*Styling for Resources page*/
 
 #odd-resources {
@@ -251,7 +256,12 @@ fieldset {
     #submit-button {
         width: initial;
     }
-
+     /*
+     .nav-bar {
+        display: flex;
+        flex-wrap: wrap; 
+     }
+     */
     .mobile-left-nav {
         display: flex;
         flex-direction: column;
