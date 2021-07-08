@@ -134,8 +134,7 @@ footer {
 
 .painting-info p {
     max-width: 60vw;
-    display: flex;
-    justify-content: center;
+    margin: 0 auto;
 }
 
 .painting-info a:hover, .painting-info a:focus {
@@ -231,10 +230,11 @@ legend {
     padding-top: 20px;
 }
 
-
 .odd-resources-article a {
     padding: 5px;
+    max-width: 60vw;
     display: block;
+    margin: 0 auto;
 }
 .odd-resources-article a:hover, .odd-resources-article a:focus{
     text-decoration: underline;
@@ -272,6 +272,10 @@ legend {
     
     .nav-bar {    
         margin: 0 0 10px 0;
+    }
+
+    .suggestions-article header, .odd-resources-article header, .odd-resources-article a {
+        max-width: 80vw;
     }
 }
 
