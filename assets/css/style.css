@@ -172,6 +172,12 @@ footer {
 
 /*Styling for Suggestions page*/
 
+.suggestions-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .suggestions-form-text {
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -180,9 +186,14 @@ footer {
     font-size: smaller;
 }
 
-.suggestions-article h2, .suggestions-article p { 
+.suggestions-article header {
     text-align: center;
     max-width: 60vw;
+}
+
+.suggestions-article h2 {
+    margin: 0 auto;
+    padding-top: 20px;
 }
 
 #submit-button:hover, #submit-button:focus {
@@ -191,8 +202,7 @@ footer {
 }
 
 .suggestions-form {
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;   
 }
 
 fieldset {
@@ -203,33 +213,37 @@ legend {
     font-size: larger;
 }
 
-.suggestions-article {
+
+/*Styling for Resources page*/
+
+.odd-resources-article {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-/*Styling for Resources page*/
-
-#odd-resources {
     text-align: center;
-    clear: both;
 }
 
-#odd-resources p {
+.odd-resources-article header {
     max-width: 60vw;
 }
+.odd-resources-article h2 {
+    margin: 0 auto;
+    padding-top: 20px;
+}
 
-#odd-resources a {
+
+.odd-resources-article a {
     padding: 5px;
     display: block;
 }
-#odd-resources a:hover, #odd-resources a:focus{
+.odd-resources-article a:hover, .odd-resources-article a:focus{
     text-decoration: underline;
 }
 
-#odd-resources iframe {
+.odd-resources-article iframe {
     border-radius: 6px;
     border: 5px #852a0d outset; 
+    margin-bottom: 20px;
 }
 
 /*Media queries*/
