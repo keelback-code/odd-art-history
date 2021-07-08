@@ -52,7 +52,6 @@ header {
 }
 
 footer {
-    clear: both;
     padding: 10px;
 }
 
@@ -83,7 +82,6 @@ footer {
     height: 400px;
     background-position: center;
     display: block;
-    clear: both;
 }
 
 #heels-image, #bushes-image, #balloons-image {
@@ -95,7 +93,6 @@ footer {
     position: relative;
     top: 40%;
     display: block;
-    margin: auto;
     text-align: center;
     text-decoration: none;
     color: #fff7e9;
@@ -143,6 +140,11 @@ footer {
 
 .painting-info a:hover, .painting-info a:focus {
     text-decoration: underline;
+}
+
+.painting-info a {
+    opacity: 0.5;
+    color: #852a0d;
 }
 
 /*Styling for Heels/Rigaud toggle images (if it happens)*/
@@ -202,6 +204,7 @@ footer {
 #submit-button:hover, #submit-button:focus {
     border: 5px #852a0d outset;
     color: #20344a;
+    border-radius: 6px;
 }
 
 .suggestions-form {
@@ -268,7 +271,7 @@ legend {
 }
 
 @media screen and (max-width: 800px) {
-    header {
+    .title-header {
         text-align: center;
         flex-direction: column;
         align-content: space-around;    
@@ -329,8 +332,136 @@ legend {
     
 
     
-
+    /* Styling for hamburger menu, adapted from Mark Caron at https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793  */
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+  }
+  
+  /* Button styling */
+  .menu-toggle {
+    display: inline-block;
+    padding: .75em 15px;
+    line-height: 1em;
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .menu-toggle:hover,
+  .menu-toggle:focus {
+    color: #c00;
+  }
+  
+  /*
+   Default styles + Mobile first
+   Offscreen menu style
+  */
+  .main-menu {
+    position: absolute;
+    display: none;
+    left: -200px;
+    top: 0;
+    height: 100%;
+    overflow-y: visible;
+    overflow-x: visible;
+    transition: left 0.3s ease,
+          box-shadow 0.3s ease;
+    z-index: 999;
+  }
+  
+  .main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 2.5em 0 0;
+    /* Hide shadow w/ -8px while 'closed' */
+    -webkit-box-shadow: -8px 0 8px rgba(0,0,0,.5);
+       -moz-box-shadow: -8px 0 8px rgba(0,0,0,.5);
+            box-shadow: -8px 0 8px rgba(0,0,0,.5);
+    min-height: 100%;
+    width: 200px;
+    background: #1a1a1a;
+  }
+  
+  .main-menu a {
+    display: block;
+    padding: .75em 15px;
+    line-height: 1em;
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #383838;
+  }
+  
+  .main-menu li:first-child a {
+    border-top: 1px solid #383838;
+  }
+  
+  .main-menu a:hover,
+  .main-menu a:focus {
+    background: #333;
+    text-decoration: underline;
+  }
+  
+  .main-menu .menu-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /*
+ On small devices, allow it to toggle...
+*/
+/*
+ :target for non-JavaScript
+ [aria-expanded] will be used if/when JavaScript is added to improve interaction, though it's completely optional.
+*/
+.main-menu:target {
+  display: block;
+  left: 0;
+  outline: none;
+  -moz-box-shadow: 3px 0 12px rgba(0,0,0,.25);
+  -webkit-box-shadow: 3px 0 12px rgba(0,0,0,.25);
+  box-shadow: 3px 0 12px rgba(0,0,0,.25);
 }
 
+.main-menu:target .menu-close {
+  z-index: 1001;
+}
 
+.main-menu:target ul {
+  position: relative;
+  z-index: 1000;
+}
+
+/* 
+ We could us `.main-menu:target:after`, but
+ it wouldn't be clickable.
+*/
+.main-menu:target + .backdrop {
+  position: absolute;
+  display: block;  
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 998;
+  background: #000;
+  background: rgba(0,0,0,.85);
+  cursor: default;
+}
+
+@supports (position: fixed) {
+  .main-menu,
+  .main-menu:target + .backdrop {
+    position: fixed;
+  }
+}
+  
 
