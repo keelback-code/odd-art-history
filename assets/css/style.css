@@ -14,6 +14,7 @@ body a {
 .page-titles {
     font-family: 'Lato', sans-serif;
     text-align: center;
+    font-size: xx-large;
 }
 
 header h1 {
@@ -80,11 +81,14 @@ footer {
 #gallery-images div{
     background-size: cover;
     height: 400px;
-    border-radius: 6px;
     background-position: center;
-    border: 5px #852a0d outset; 
     display: block;
     clear: both;
+}
+
+#heels-image, #bushes-image, #balloons-image {
+    border: 5px #852a0d outset;
+    border-radius: 6px;
 }
 
 #gallery-images a {
@@ -96,12 +100,12 @@ footer {
     text-decoration: none;
     color: #fff7e9;
     font-size: xxx-large;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
-#bushes-div {
+.gallery-shadow {
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);   
 }
 
 /*Styling for divider that is present at top and bottom of all pages except landing/gallery page*/
