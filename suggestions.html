@@ -38,7 +38,7 @@
         </nav>
     </header>
 
-    <article id="suggestions-article">
+    <article class="suggestions-article">
         <div class="visual-divider"></div>
         <header>
             <h2 class="page-titles">Make A Suggestion!</h2>
@@ -48,22 +48,33 @@
         </header>
         <section id="suggestions-container">
             <!--Take out this id if not used in the end-->
-            <form id="suggestions-form" method="POST" action="https://formdump.codeinstitute.net/">
+            <form class="suggestions-form" method="POST" action="https://formdump.codeinstitute.net/">
                 <fieldset>
                     <legend>Make A Suggestion!</legend>
+                    <label for="artwork-name">Enter name of artwork here</label>
+                    <br>
                     <input type="text" name="artwork-name" id="artwork-name" class="suggestions-form-text"
-                        placeholder="Enter name of artwork here" aria-label="Enter name of artwork here" size="70"
+                        placeholder="G'wan" size="70"
                         required>
                     <br>
+                    <br>
+                    <label for="artwork-reason">Enter reason for suggestion here</label>
+                    <br>
                     <textarea name="artwork-reason" id="artwork-reason" class="suggestions-form-text"
-                        placeholder="Enter reason for suggestion here" aria-label="Enter reason for suggestion here"
+                        placeholder="Dare ya"
                         rows="7" cols="70" required></textarea>
                     <br>
+                    <br>
+                    <label for="user-name">Your name (optional)</label>
+                    <br>
                     <input type="text" name="user-name" id="user-name" class="suggestions-form-text"
-                        placeholder="Your name (optional)" aria-label="Your name (optional)" size="70">
+                        placeholder="Not the artist's name...unless you are THE artist?" size="70">
+                    <br>
+                    <br>
+                    <label for="email-address">Your email address (optional)</label>
                     <br>
                     <input type="email" name="email-address" id="email-address" class="suggestions-form-text"
-                        placeholder="Your email address (optional)" aria-label="Your email address (optional)"
+                        placeholder="Not your neighbour's email address"
                         size="70">
                     <br>
                     <br>
