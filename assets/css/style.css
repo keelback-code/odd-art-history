@@ -6,7 +6,7 @@ body {
     background-color: #fff7e9;
 }
 
-#main-menu-toggle, #main-menu-close {
+.menu-toggle, .menu-close {
     display: none;
 }
 
@@ -44,12 +44,6 @@ header h2 {
     flex-direction: row;
 }
 
-.nav-bar-container div {
-    display: flex;
-    align-items: flex-end;
-    flex-direction: row;
-}
-
 .nav-bar li {
     padding: 10px;
     font-size: larger;
@@ -60,18 +54,6 @@ footer {
 }
 
 /*Styling for Gallery page*/
-
-.nav-bar li:hover,
-#gallery-images a:hover,
-footer a:hover {
-    text-decoration: underline;
-}
-
-.nav-bar li:focus,
-#gallery-images a:focus,
-footer a:focus {
-    text-decoration: underline;
-}
 
 #heels-image {
     background: url("../images/rigaud-louis-xiv-heels-cropped.jpg");
@@ -106,13 +88,25 @@ footer a:focus {
     text-align: center;
     text-decoration: none;
     color: #fff7e9;
-    font-size: xxx-large;
+    font-size: 2.75em;
     background-color: rgba(0, 0, 0, 0.3);
 }
 
 .gallery-shadow {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
+}
+
+.nav-bar li:hover,
+#gallery-images a:hover,
+footer a:hover {
+    text-decoration: underline;
+}
+
+.nav-bar li:focus,
+#gallery-images a:focus,
+footer a:focus {
+    text-decoration: underline;
 }
 
 /*Styling for divider that is present at top and bottom of all pages except landing/gallery page*/
@@ -280,7 +274,7 @@ legend {
         line-height: 1em;  
     }
 
-    #main-menu-toggle, #main-menu-close {
+    .menu-toggle, .menu-close {
         display: initial;
     }
 
@@ -322,10 +316,6 @@ legend {
         list-style: none;
         margin: 0;
         padding: 0;
-        /* Hide shadow w/ -8px while 'closed' */
-        -webkit-box-shadow: -8px 0 8px rgba(0, 0, 0, .5);
-        -moz-box-shadow: -8px 0 8px rgba(0, 0, 0, .5);
-        box-shadow: -8px 0 8px rgba(0, 0, 0, .5);
         min-height: 50%;
         width: 200px;
         background: #20344a;
@@ -352,9 +342,6 @@ legend {
         display: block;
         right: 0;
         outline: none;
-        -moz-box-shadow: 3px 0 12px rgba(0, 0, 0, .25);
-        -webkit-box-shadow: 3px 0 12px rgba(0, 0, 0, .25);
-        box-shadow: 3px 0 12px rgba(0, 0, 0, .25);
     }
 
     .main-menu:target .menu-close {
@@ -388,7 +375,7 @@ legend {
     }
 }
 
-/*Mobile styling for suggestions form and site header to fit alongside hamburger*/
+/*Mobile styling for site header to fit alongside hamburger, along with suggestions form and other title text*/
 
 @media screen and (max-width: 550px) {
     .suggestions-form-text {
@@ -397,5 +384,13 @@ legend {
 
     .site-header {
         font-size: smaller;
+    }
+
+    .page-titles {
+        font-size: x-large;
+    }
+
+    #gallery-images a {
+        font-size: xx-large;
     }
 }
