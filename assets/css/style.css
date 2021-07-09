@@ -270,6 +270,8 @@ legend {
 
 /*Media queries*/
 
+/*Tablet and smaller images for Boucher and Fragonard only, and styling for embedded video*/
+
 @media screen and (max-width: 950px) {
     #bushes-image {
         background: url("../images/fragonard-swing-bushes-cropped-mobile.jpg");
@@ -285,42 +287,17 @@ legend {
 
 }
 
+/*Tablet and smaller styling for nav bar, headers, text and suggestion form submit button*/
+
 @media screen and (max-width: 800px) {
-    .title-header {
-        text-align: center;
-        flex-direction: column;
-        align-content: space-around;
-    }
-
-    .nav-bar {
-        margin: 0 0 10px 0;
-    }
-
     .suggestions-article header,
     .odd-resources-article header,
     .odd-resources-article a {
         max-width: 80vw;
     }
-}
-
-
-@media screen and (max-width: 550px) {
-    .suggestions-form-text {
-        width: 80vw;
-    }
 
     #submit-button {
         width: initial;
-    }
-
-    .nav-bar {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-
-    .mobile-right-nav {
-        margin-left: auto;
     }
 
     /* Aligning text and displaying hamburger in preparation for hamburger menu*/
@@ -351,11 +328,11 @@ legend {
         display: inline-block;
         position: absolute;
         line-height: 1em;
-        font-size: 1.5em;
+        font-size: 2.5em;
         color: #20344a;
         top: 0;
         right: 0;
-        padding: 1em 20px;
+        padding: .5em 20px;
     }
 
     .main-menu {
@@ -379,6 +356,8 @@ legend {
         min-height: 50%;
         width: 200px;
         background: #20344a;
+        display: flex;
+        flex-direction: column;
     }
 
     .main-menu a {
@@ -433,5 +412,17 @@ legend {
         .main-menu:target+.backdrop {
             position: fixed;
         }
+    }
+}
+
+/*Mobile styling for suggestions form and site header to fit alongside hamburger*/
+
+@media screen and (max-width: 550px) {
+    .suggestions-form-text {
+        width: 80vw;
+    }
+
+    .site-header {
+        font-size: smaller;
     }
 }

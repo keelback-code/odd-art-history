@@ -12,35 +12,41 @@
 </head>
 
 <body>
-    <header class="title-header">
+    <header class="site-header">
+        <a href="#main-menu" id="main-menu-toggle" class="menu-toggle" aria-label="Open main menu">
+            <span class="sr-only">Open main menu</span>
+            <span class="fa fa-bars" aria-hidden="true"></span>
+        </a>
+
         <div>
             <a href="index.html">
-                <h1>Odd Art History</h1>
+                <h1 class="logo">Odd Art History</h1>
             </a>
             <h2><em>Odd facts about old paintings</em></h2>
         </div>
-        <nav class="nav-bar-container">
+
+        <nav id="main-menu" class="main-menu" class="nav-bar-container" aria-label="Main menu">
+            <a href="#main-menu-toggle" id="main-menu-close" class="menu-close" aria-label="Close main menu">
+                <span class="sr-only">Close main menu</span>
+                <span class="fa fa-close" aria-hidden="true"></span>
+            </a>
             <ul class="nav-bar">
-                <div class="mobile-left-nav">
-                    <li>
-                        <a href="index.html">Gallery</a>
-                    </li>
-                    <li>
-                        <a href="odd-resources.html">Odd Resources</a>
-                    </li>
-                </div>
-                <div class="mobile-right-nav">
-                    <li>
-                        <a href="suggestions.html">Suggestions</a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                            aria-label="Say Hi (link to our Facebook page)">Say Hi</a>
-                    </li>
-                </div>
-                
+                <li>
+                    <a href="index.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="odd-resources.html">Odd Resources</a>
+                </li>
+                <li>
+                    <a href="suggestions.html">Suggestions</a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                        aria-label="Say Hi (link to our Facebook page)">Say Hi</a>
+                </li>
             </ul>
         </nav>
+        <a href="#main-menu-toggle" class="backdrop" tabindex="-1" aria-hidden="true" hidden></a>
     </header>
 
     <section id="gallery-images">
@@ -69,6 +75,7 @@
             <a href="index.html">Back to Top</a>
         </div>
     </footer>
+    <script src="https://kit.fontawesome.com/a332586675.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
