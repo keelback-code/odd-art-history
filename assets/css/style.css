@@ -143,6 +143,10 @@ footer a:focus {
     text-align: justify;
 }
 
+.painting-info p > a {
+    text-decoration: underline;
+}
+
 .painting-info a:hover,
 .painting-info a:focus {
     text-decoration: underline;

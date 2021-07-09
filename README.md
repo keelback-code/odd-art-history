@@ -177,7 +177,16 @@ The live link is:
 Content
 
 * For the Hannah Gadsby video I used the code that YouTube provides for embedding videos, but removed autoplay, changed the size and altered the title attribute and changed it to an aria-label for accessibility across platforms.
-* Much of the text content on the painting pages comes from my own knowledge as an Art History major at the University of Sydney but has been researched for accuracy and individual references are listed on each page. (list links?)
+* Much of the text content on the painting pages comes from my own knowledge as an Art History major at the University of Sydney but has been researched for accuracy. Individual references are
+  * Rigaud/Heels image:
+    * [The Fashion Historian](http://www.thefashionhistorian.com/2010/11/red-heels.html)
+    * [BBC](https://www.bbc.com/news/magazine-21151350)
+  * Fragonard/Swing image:
+    * [Wallace Collection](https://wallacelive.wallacecollection.org/eMP/eMuseumPlus?service=ExternalInterface&module=collection&objectId=65364&viewType=detailView)
+    * [Wikipedia entry](https://en.wikipedia.org/wiki/The_Swing_%28Fragonard%29)
+    * [Khan Academy](https://www.khanacademy.org/humanities/renaissance-reformation/rococo-neoclassicism/rococo/a/fragonard-the-swing)
+  * Boucher/Balloons image:
+    * [Wallace Collection](https://wallacelive.wallacecollection.org/eMP/eMuseumPlus?service=ExternalInterface&module=collection&objectId=65420&viewType=detailView)
 * Code for the tablet and mobile hamburger menu was adapted from Mark Caron's article at https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793 
 * Assistance with visual design from Amelia Horan, as mentioned in Design section of readme.
 
