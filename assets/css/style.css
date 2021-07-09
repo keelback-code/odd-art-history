@@ -3,13 +3,17 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     color: #20344a;
-    background-color: #fff7e9; 
+    background-color: #fff7e9;
+}
+
+#main-menu-toggle, #main-menu-close {
+    display: none;
 }
 
 body a {
     text-decoration: none;
     color: #20344a;
-} 
+}
 
 .page-titles {
     font-family: 'Lato', sans-serif;
@@ -28,10 +32,10 @@ header h2 {
     opacity: 0.65;
 }
 
-header {
+.site-header {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .nav-bar {
@@ -57,11 +61,15 @@ footer {
 
 /*Styling for Gallery page*/
 
-.nav-bar li:hover, #gallery-images a:hover, footer a:hover {
+.nav-bar li:hover,
+#gallery-images a:hover,
+footer a:hover {
     text-decoration: underline;
 }
 
-.nav-bar li:focus, #gallery-images a:focus, footer a:focus {
+.nav-bar li:focus,
+#gallery-images a:focus,
+footer a:focus {
     text-decoration: underline;
 }
 
@@ -77,14 +85,16 @@ footer {
     background: url("../images/boucher-setting-of-the-sun-balloon.jpg");
 }
 
-#gallery-images div{
+#gallery-images div {
     background-size: cover;
     height: 400px;
     background-position: center;
     display: block;
 }
 
-#heels-image, #bushes-image, #balloons-image {
+#heels-image,
+#bushes-image,
+#balloons-image {
     border: 5px #852a0d outset;
     border-radius: 6px;
 }
@@ -102,7 +112,7 @@ footer {
 
 .gallery-shadow {
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.2);   
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 /*Styling for divider that is present at top and bottom of all pages except landing/gallery page*/
@@ -129,8 +139,8 @@ footer {
 .painting img {
     width: 60vw;
     border-radius: 6px;
-    border: 5px #852a0d outset; 
-    margin: auto; 
+    border: 5px #852a0d outset;
+    margin: auto;
 }
 
 .painting-info p {
@@ -138,7 +148,8 @@ footer {
     margin: 0 auto;
 }
 
-.painting-info a:hover, .painting-info a:focus {
+.painting-info a:hover,
+.painting-info a:focus {
     text-decoration: underline;
 }
 
@@ -160,7 +171,7 @@ footer {
 
 #rigaud-painting-detail img {
     position: relative;
-    width: 30vw;   
+    width: 30vw;
 }
 
 /*Code for clicking between two Heels/Rigaud images based on code from https://www.digitalocean.com/community/tutorials/css-css-only-click-handler */
@@ -201,14 +212,15 @@ footer {
     padding-top: 20px;
 }
 
-#submit-button:hover, #submit-button:focus {
+#submit-button:hover,
+#submit-button:focus {
     border: 5px #852a0d outset;
     color: #20344a;
     border-radius: 6px;
 }
 
 .suggestions-form {
-    margin-bottom: 20px;   
+    margin-bottom: 20px;
 }
 
 fieldset {
@@ -232,6 +244,7 @@ legend {
 .odd-resources-article header {
     max-width: 60vw;
 }
+
 .odd-resources-article h2 {
     margin: 0 auto;
     padding-top: 20px;
@@ -243,19 +256,21 @@ legend {
     display: block;
     margin: 0 auto;
 }
-.odd-resources-article a:hover, .odd-resources-article a:focus{
+
+.odd-resources-article a:hover,
+.odd-resources-article a:focus {
     text-decoration: underline;
 }
 
 .odd-resources-article iframe {
     border-radius: 6px;
-    border: 5px #852a0d outset; 
+    border: 5px #852a0d outset;
     margin-bottom: 20px;
 }
 
 /*Media queries*/
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 950px) {
     #bushes-image {
         background: url("../images/fragonard-swing-bushes-cropped-mobile.jpg");
     }
@@ -267,21 +282,23 @@ legend {
     #gadsby-video {
         width: 80vw;
     }
-    
+
 }
 
 @media screen and (max-width: 800px) {
     .title-header {
         text-align: center;
         flex-direction: column;
-        align-content: space-around;    
+        align-content: space-around;
     }
-    
-    .nav-bar {    
+
+    .nav-bar {
         margin: 0 0 10px 0;
     }
 
-    .suggestions-article header, .odd-resources-article header, .odd-resources-article a {
+    .suggestions-article header,
+    .odd-resources-article header,
+    .odd-resources-article a {
         max-width: 80vw;
     }
 }
@@ -298,170 +315,119 @@ legend {
 
     .nav-bar {
         display: flex;
-        flex-wrap: wrap; 
+        flex-wrap: wrap;
         flex-direction: column;
-     }
+    }
 
-   
     .mobile-right-nav {
-        margin-left: auto;   
+        margin-left: auto;
     }
-     
-    /* .nav-bar {
-        display: flex;
-        flex-wrap: wrap; 
-     }
 
-    .nav-bar > li {
-        flex: 1;
-        flex-basis: 100%;
-        text-align: center;
-    }
-     
-    /*.mobile-left-nav {
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-    }
-    
-    .mobile-right-nav {
-        display: flex;
-        flex-direction: column;
-        text-align: right;
-    }*/
-    
-
-    
     /* Styling for hamburger menu, adapted from Mark Caron at https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793  */
-}
-.sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0,0,0,0);
-    border: 0;
-  }
-  
-  /* Button styling */
-  .menu-toggle {
-    display: inline-block;
-    padding: .75em 15px;
-    line-height: 1em;
-    font-size: 1em;
-    color: #333;
-  }
-  
-  .menu-toggle:hover,
-  .menu-toggle:focus {
-    color: #c00;
-  }
-  
-  /*
-   Default styles + Mobile first
-   Offscreen menu style
-  */
-  .main-menu {
-    position: absolute;
-    display: none;
-    left: -200px;
-    top: 0;
-    height: 100%;
-    overflow-y: visible;
-    overflow-x: visible;
-    transition: left 0.3s ease,
-          box-shadow 0.3s ease;
-    z-index: 999;
-  }
-  
-  .main-menu ul {
-    list-style: none;
-    margin: 0;
-    padding: 2.5em 0 0;
-    /* Hide shadow w/ -8px while 'closed' */
-    -webkit-box-shadow: -8px 0 8px rgba(0,0,0,.5);
-       -moz-box-shadow: -8px 0 8px rgba(0,0,0,.5);
-            box-shadow: -8px 0 8px rgba(0,0,0,.5);
-    min-height: 100%;
-    width: 200px;
-    background: #1a1a1a;
-  }
-  
-  .main-menu a {
-    display: block;
-    padding: .75em 15px;
-    line-height: 1em;
-    font-size: 1em;
-    color: #fff;
-    text-decoration: none;
-    border-bottom: 1px solid #383838;
-  }
-  
-  .main-menu li:first-child a {
-    border-top: 1px solid #383838;
-  }
-  
-  .main-menu a:hover,
-  .main-menu a:focus {
-    background: #333;
-    text-decoration: underline;
-  }
-  
-  .main-menu .menu-close {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  
-  /*
- On small devices, allow it to toggle...
-*/
-/*
- :target for non-JavaScript
- [aria-expanded] will be used if/when JavaScript is added to improve interaction, though it's completely optional.
-*/
-.main-menu:target {
-  display: block;
-  left: 0;
-  outline: none;
-  -moz-box-shadow: 3px 0 12px rgba(0,0,0,.25);
-  -webkit-box-shadow: 3px 0 12px rgba(0,0,0,.25);
-  box-shadow: 3px 0 12px rgba(0,0,0,.25);
-}
 
-.main-menu:target .menu-close {
-  z-index: 1001;
-}
+    #main-menu-toggle, #main-menu-close {
+        display: initial;
+    }
 
-.main-menu:target ul {
-  position: relative;
-  z-index: 1000;
-}
+    .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
+    }
 
-/* 
- We could us `.main-menu:target:after`, but
- it wouldn't be clickable.
-*/
-.main-menu:target + .backdrop {
-  position: absolute;
-  display: block;  
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 998;
-  background: #000;
-  background: rgba(0,0,0,.85);
-  cursor: default;
-}
+    .mobile-header-text {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
-@supports (position: fixed) {
-  .main-menu,
-  .main-menu:target + .backdrop {
-    position: fixed;
-  }
-}
-  
+    .menu-toggle {
+        display: inline-block;
+        padding: .75em 15px;
+        line-height: 1em;
+        font-size: 1.5em;
+        color: #20344a;
+    }
 
+    .main-menu {
+        position: absolute;
+        display: none;
+        left: -200px;
+        top: 0;
+        transition: left 0.3s ease,
+            box-shadow 0.3s ease;
+        z-index: 999;
+    }
+
+    .main-menu ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        /* Hide shadow w/ -8px while 'closed' */
+        -webkit-box-shadow: -8px 0 8px rgba(0, 0, 0, .5);
+        -moz-box-shadow: -8px 0 8px rgba(0, 0, 0, .5);
+        box-shadow: -8px 0 8px rgba(0, 0, 0, .5);
+        min-height: 50%;
+        width: 200px;
+        background: #20344a;
+    }
+
+    .main-menu a {
+        display: block;
+        padding: .5em 15px;
+        line-height: 1em;
+        font-size: 1em;
+        color: #fff7e9;
+        text-decoration: none;
+    }
+
+    .main-menu .menu-close {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .main-menu:target {
+        display: block;
+        left: 0;
+        outline: none;
+        -moz-box-shadow: 3px 0 12px rgba(0, 0, 0, .25);
+        -webkit-box-shadow: 3px 0 12px rgba(0, 0, 0, .25);
+        box-shadow: 3px 0 12px rgba(0, 0, 0, .25);
+    }
+
+    .main-menu:target .menu-close {
+        z-index: 1001;
+    }
+
+    .main-menu:target ul {
+        position: relative;
+        z-index: 1000;
+    }
+
+    .main-menu:target+.backdrop {
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 998;
+        background: #000;
+        background: rgba(0, 0, 0, .4);
+        cursor: default;
+    }
+
+    @supports (position: fixed) {
+
+        .main-menu,
+        .main-menu:target+.backdrop {
+            position: fixed;
+        }
+    }
+}
