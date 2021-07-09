@@ -158,33 +158,6 @@ footer a:focus {
     color: #852a0d;
 }
 
-/*Styling for Heels/Rigaud toggle images (if it happens)*/
-
-#rigaud {
-    position: relative;
-    text-align: center;
-}
-
-#rigaud-painting img {
-    position: relative;
-}
-
-#rigaud-painting-detail img {
-    position: relative;
-    width: 30vw;
-}
-
-/*Code for clicking between two Heels/Rigaud images based on code from https://www.digitalocean.com/community/tutorials/css-css-only-click-handler */
-
-#rigaud-painting-detail {
-    display: none;
-}
-
-#rigaud-painting-detail:target {
-    display: block;
-}
-
-
 
 /*Styling for Suggestions page*/
 
