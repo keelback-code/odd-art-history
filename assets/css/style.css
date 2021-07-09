@@ -140,6 +140,7 @@ footer a:focus {
 .painting-info p {
     max-width: 60vw;
     margin: 0 auto;
+    text-align: justify;
 }
 
 .painting-info a:hover,
@@ -148,7 +149,7 @@ footer a:focus {
 }
 
 .painting-info a {
-    opacity: 0.5;
+    opacity: 0.75;
     color: #852a0d;
 }
 
