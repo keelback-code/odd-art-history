@@ -134,7 +134,7 @@ The main text is a dark navy, which is from the original colormind scheme (#2034
   <img src="assets/images/readme-images/oarht-final-colors.JPG">
 </p>
 
-For the fonts, Lato is used for the headings/titles and Source Sans Pro for the main content, with Sans-Serif provided as a back-up for both. A modern font was deliberately chosen to juxtapose the paintings on the site; a font mimicking an older style of script might seem tired and even cheesy. My tutor, Maranatha Ilesanmi, suggested that for research I visit similar websites, including gallery websites. A common theme on websites for major galleries, for example the Louvre and Wallace Collection where the paintings I have chosen are housed, is that they are sleek and modern.
+For the fonts, Lato is used for the headings/titles and Source Sans Pro for the main content, with Sans-Serif provided as a back-up for both. A modern font was deliberately chosen to juxtapose the paintings on the site; a font mimicking an older style of script might seem tired and even cheesy. My mentor, Maranatha Ilesanmi, suggested that for research I visit similar websites, including gallery websites. A common theme on websites for major galleries, for example the Louvre and Wallace Collection where the paintings I have chosen are housed, is that they are sleek and modern.
 
 
 ## Technologies
@@ -149,11 +149,11 @@ Frameworks, Libraries and Programs Used:
 * Wikimedia Commons - for the painting images
 * TinyJPG - for compressing the larger images
 * Balsamiq - for creating the wireframes in the design stage
-* Google Chrome Developer Tools and Firefox Developer Tools - for inspecting and testing the site
+* Firefox Developer Tools and Google Chrome Developer Tools - for inspecting and testing the site
 * GitHub - for hosting the site
 * GitPages - for the deployment of the site
 * Gitpod - for editing the files
-* Font Awesome - for the icons used under the main text on the painting pages
+* Font Awesome - for the icons
 
 ## Testing
 
