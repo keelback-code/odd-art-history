@@ -323,11 +323,18 @@ legend {
         margin-left: auto;
     }
 
-    /* Styling for hamburger menu, adapted from Mark Caron at https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793  */
+    /* Aligning text and displaying hamburger in preparation for hamburger menu*/
+    
+    .site-header {
+        display: inline-block;
+        line-height: 1em;  
+    }
 
     #main-menu-toggle, #main-menu-close {
         display: initial;
     }
+
+    /* Styling for hamburger menu, adapted from Mark Caron at https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793  */
 
     .sr-only {
         position: absolute;
@@ -340,26 +347,23 @@ legend {
         border: 0;
     }
 
-    .mobile-header-text {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
     .menu-toggle {
         display: inline-block;
-        padding: .75em 15px;
+        position: absolute;
         line-height: 1em;
         font-size: 1.5em;
         color: #20344a;
+        top: 0;
+        right: 0;
+        padding: 1em 20px;
     }
 
     .main-menu {
         position: absolute;
         display: none;
-        left: -200px;
+        right: -200px;
         top: 0;
-        transition: left 0.3s ease,
+        transition: right 0.3s ease,
             box-shadow 0.3s ease;
         z-index: 999;
     }
@@ -394,7 +398,7 @@ legend {
 
     .main-menu:target {
         display: block;
-        left: 0;
+        right: 0;
         outline: none;
         -moz-box-shadow: 3px 0 12px rgba(0, 0, 0, .25);
         -webkit-box-shadow: 3px 0 12px rgba(0, 0, 0, .25);
@@ -413,7 +417,7 @@ legend {
     .main-menu:target+.backdrop {
         position: absolute;
         display: block;
-        left: 0;
+        right: 0;
         top: 0;
         width: 100%;
         height: 100%;
