@@ -131,16 +131,17 @@ footer a:focus {
 }
 
 .painting img {
-    width: 60vw;
+    max-width: 70vw;
     border-radius: 6px;
     border: 5px #852a0d outset;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .painting-info p {
-    max-width: 60vw;
+    max-width: 70vw;
     margin: 0 auto;
     text-align: justify;
+    hyphens: auto;
 }
 
 .painting-info p > a {
@@ -323,9 +324,10 @@ legend {
         padding: 0;
         min-height: 50%;
         width: 200px;
-        background: #20344a;
+        background: #681b04;
         display: flex;
         flex-direction: column;
+        border-radius: 6px;
     }
 
     .main-menu a {
@@ -380,22 +382,29 @@ legend {
     }
 }
 
-/*Mobile styling for site header to fit alongside hamburger, along with suggestions form and other title text*/
+/*Mobile styling for site header to fit alongside hamburger, along with suggestions form and other text*/
 
 @media screen and (max-width: 550px) {
-    .suggestions-form-text {
-        width: 80vw;
+    .page-titles {
+        font-size: x-large;
     }
 
     .site-header {
         font-size: smaller;
     }
 
-    .page-titles {
-        font-size: x-large;
-    }
-
     #gallery-images a {
         font-size: xx-large;
     }
+
+    .painting-info p, .suggestions-form-text {
+        max-width: 80vw;
+    }
+
+
+    
+
+    
+
+    
 }

@@ -149,7 +149,7 @@ Frameworks, Libraries and Programs Used:
 * Wikimedia Commons - for the painting images
 * TinyJPG - for compressing the larger images
 * Balsamiq - for creating the wireframes in the design stage
-* Firefox Developer Tools and Google Chrome Developer Tools - for inspecting and testing the site
+* Firefox Developer Tools - for inspecting and testing the site
 * GitHub - for hosting the site
 * GitPages - for the deployment of the site
 * Gitpod - for editing the files
@@ -157,10 +157,15 @@ Frameworks, Libraries and Programs Used:
 
 ## Testing
 
+HTML validator - no errors, 2 warnings (check)
+CSS validator - no errors (check)
+Accessibility validator - 96/100 (check)
+
 ## Debugging and known bugs
 
 ## Deployment
 
+Publishing
 The project was deployed using GitHub pages. The steps to deploy using GitHub pages are:
 * In the repository, click the 'Settings' tab, which is the furthest to the right
 * Scroll down until you see the 'Pages' tab, which will be in the menu on the left hand side
@@ -168,15 +173,20 @@ The project was deployed using GitHub pages. The steps to deploy using GitHub pa
 * Click 'Save' and the site will be link will appear in a blue box. After a few moments the box will turn green and then the site will be live.
 
 The live link is:
-
 [Odd Art History](https://elyserh.github.io/odd-art-history/)
 
+Forking and Cloning
+To save a copy of the code, here are the steps for forking and cloning using Github:
+* In the repository, click the 'Fork' button, which is on the top right hand side, next to 'Star'.
+* Github will automatically create a new repo, which is forked from the original. If you would like to clone it you have two options:
+  * within the repository, click the 'Code' dropdown, which is located next to 'Add File' on the right (underneath the Settings tab) and there is an option to download all files and save a copy locally.
+  * in the same 'Code' dropdown, you can opt to open the code with GitHub Desktop and work from there
 
 ## Credits
 
 Content
 
-* For the Hannah Gadsby video I used the code that YouTube provides for embedding videos, but removed autoplay, changed the size and altered the title attribute and changed it to an aria-label for accessibility across platforms.
+* For the Hannah Gadsby video I used the code that YouTube provides for embedding videos, but removed autoplay, changed the size and altered the title attribute.
 * Much of the text content on the painting pages comes from my own knowledge as an Art History major at the University of Sydney but has been researched for accuracy. Individual references are
   * Rigaud/Heels image:
     * [The Fashion Historian](http://www.thefashionhistorian.com/2010/11/red-heels.html)
@@ -187,7 +197,7 @@ Content
     * [Khan Academy](https://www.khanacademy.org/humanities/renaissance-reformation/rococo-neoclassicism/rococo/a/fragonard-the-swing)
   * Boucher/Balloons image:
     * [Wallace Collection](https://wallacelive.wallacecollection.org/eMP/eMuseumPlus?service=ExternalInterface&module=collection&objectId=65420&viewType=detailView)
-* Code for the tablet and mobile hamburger menu was adapted from Mark Caron's article at https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793 
+* Code for the tablet and mobile hamburger menu was adapted from Mark Caron's article at https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793 .
 * Assistance with visual design from Amelia Horan, as mentioned in Design section of readme.
 
 
