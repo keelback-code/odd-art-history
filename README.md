@@ -4,8 +4,6 @@
 
 [Purpose](#purpose)
 
-[Screenshots](#screenshots)
-
 [Features](#features)
 
 [User Stories](#user-stories) 
@@ -26,43 +24,61 @@
 
 ## Purpose
 
-The purpose of the site is to provide interesting information about art history, specifically older paintings. The information is aimed to be presented to users who may consider the topic boring or uninteresting, or interested users who are looking for something new.
-The site was built to fulfill the requirements of Project Portfolio 1 for the Code Institute’s Diploma in Software Development.
+The purpose of the site Odd Art History is to provide interesting and odd information about art history, specifically older paintings. It acts as a small gallery, with a main hub and branching rooms, but instead of stuffy academic information, you'll learn something odd you didn't need to know but it'll be more fun.
+The information is aimed to be presented to users who may consider the topic boring or uninteresting, or interested users who are looking for something new. The site aims to changes the minds of anyone who thought art history was boring and provide ways to further interact with the field through suggested resources, and multiple ways to get in contact.
 
 It can be found here:
 
 [Odd Art History](https://elyserh.github.io/odd-art-history/)
 
-## Screenshots
+![Screenshot](assets/images/readme-images/odd-art-history-screenshot-screens.jpg)
 
 ## Features
 
 Features across all pages
 * Clear header and site ‘slogan’, making the purpose clear to users of the site.
 * Navigation links listing Gallery, Odd Resources, Suggestions and Say Hi (which will link to Facebook), allowing for easy and intuitive navigation of site for all users. On desktop links will be underlined when they are hovered over to indicate to the user that they are clickable.
+* On mobile and most tablets the navigation bar will change to a hamburger design and will remain on the same side of the screen for continuity and ease of use.
 * Footer mirroring design of navigation links, which will link back to top of page, allowing for further easy navigation. Link will also be underlined when hovered over.
 * Header will always remain at top of page (will not be sticky) and footer will always remain at bottom of page as user scrolls in order to allow for maximum view of visual content. Easy return to the home page will be provided to counteract this feature. The main purpose of the footer will be to link to the top of the page, so that the user does not have to scroll back up.
 * The header 'Odd Art History' is also a link to the gallery page. It is not underlined when hovered over because it is not part of the navigation bar, but it is a link because this is common on web pages and therefore intuitive to modern web users.
 
+![Header](assets/images/readme-images/header-snip.jpg)
+![Footer](assets/images/readme-images/footer-snip.jpg)
+<img align="center" width="200" src="assets/images/readme-images/nav-mobile-snip.jpg">
+
 Gallery (home/landing page)
-* Three main images with text that links to painting pages - each one is a ‘hint’ of the painting, with a hint word and hint image. The aim of the images is to make the user curious about the content. 
+* Three main images with text that links to painting pages - each one is a ‘hint’ of the painting, with a hint word and hint image. The aim of the images is to make the user curious about the content. The whole image acts as the link for intuitive use.
 * The 'hint' link/text on each image is large and contrasting, to make it obvious to the user that it is important. It is also underlined when hovered over for the same reason.
 * Images are page width on all devices; the large size of the paintings is mimicking a gallery and providing appealling visual content.
+* Highest quality images available have been used; important for user to get as close experience as possible to viewing the painting in real life.
+
+![Top half of gallery page](assets/images/readme-images/gallery-snip.jpg)
 
 Painting pages (x3, ‘heels’, ‘bushes’, ‘balloons’)
 * Spokes from gallery hub (design choice and value explained in UX section of readme).
-* Full view of painting with label, when clicked on will change to close up of detail talked about in text (maybe). Similarly to the home page, the images are presented fairly large in order to mimick a gallery experience.
+* Full size painting with title, similarly to the home page, the images are presented fairly large in order to mimick a gallery experience.
 * Informative and interesting text about painting with link back to gallery page for easy navigation, deliberately providing multiple ways to return to the landing page to counteract spoke aspect when needed.
 * Links to image and text references clearly provided, with icons from Fontawesome as added visual cues.
 
+Top part of page
+![Top half of painting page](assets/images/readme-images/painting-snip-top.jpg)
+
+Bottom part of page
+![Bottom half of painting page](assets/images/readme-images/painting-snip-bottom.jpg)
+
 Suggestions page
-* Easy to use form for users to suggest paintings; make it simple for users to submit paintings with adequate space.
-* Placeholder text instead of labels to make form neat and tidy; aria labels with same text for accessibility.
+* Easy to use form for users to suggest odd paintings; make it simple for users to submit paintings with adequate space. Fun and different way to interact with the site.
 * Optional to provide contact details (theoretically if site owner chooses a painting, they would contact the user and ask if okay to use their name, or possibly for more info).
+* Submit button will open in a new tab so that users do not navigate away from site entirely.
+
+![Suggestions page](assets/images/readme-images/suggestions-snip.jpg)
 
 Odd Resources page
-* Page with links to further information; hopefully the site will have piqued the user's interest in odd art history and an easy-to-find page of further information will help them on their journey.
+* Page with links to further information; hopefully the site will have piqued the user's interest in odd art history and an easy-to-find page of further information will help them on their journey. All links will open in a new tab, with aria labels announcing the same.
 * There will be an embedded video, as a teaser for one of the resources; it will not autoplay. The video thumbnail will also add visual interest to the page.
+
+![Resources page](assets/images/readme-images/resources-snip.jpg)
 
 ## User Stories
 
@@ -106,24 +122,16 @@ I have included the Gallery, Odd Resources and Suggestions page on the nav bar s
 Wireframes were produced using Balsamiq. Ultimately the final site followed the broad strokes of the designs but the key point that differed is that the title, subtitle and navigation links all ended up being on one axis, instead of having a separate navigation bar. I originally built the site as per the design in these wireframes, but the content in these elements does not take up much space and a lot of empty space was created. Visual design is not my forte, so I reached out to my sister Amelia Horan for assistance with the visual design. After talking through the design with her, I ended up with the design shown in the readme screenshots section.
 
 Gallery page
-<p align="center">
-  <img src="assets/images/readme-images/wireframe-gallery.png">
-</p>
+![Gallery page](assets/images/readme-images/wireframe-gallery.png)
 
 Painting page
-<p align="center">
-  <img src="assets/images/readme-images/wireframe-painting.png">
-</p>
+![Painting page](assets/images/readme-images/wireframe-painting.png)
 
 Odd Resources page
-<p align="center">
-  <img src="assets/images/readme-images/wireframe-resources.png">
-</p>
+![Odd Resources Page](assets/images/readme-images/wireframe-resources.png)
 
 Suggestions page
-<p align="center">
-  <img src="assets/images/readme-images/wireframe-suggestions.png">
-</p>
+![Suggestions page](assets/images/readme-images/wireframe-suggestions.png)
 
 ## Colour schemes and typography
 
@@ -131,8 +139,10 @@ I used Google Fonts for the typography, and initially used colormind.io to choos
 The main text is a dark navy, which is from the original colormind scheme (#20344a).
 
 <p align="center">
-  <img src="assets/images/readme-images/oarht-final-colors.JPG">
+  <img src="assets/images/readme-images/oarht-final-colors.jpg">
 </p>
+
+The hamburger used for the mobile menu uses a darker red; the original red was too bright against the shadow background so I used Gitpod's built in dropper tool to find a darker shade (#681b04). This also provides a better contrast with the cream text.
 
 For the fonts, Lato is used for the headings/titles and Source Sans Pro for the main content, with Sans-Serif provided as a back-up for both. A modern font was deliberately chosen to juxtapose the paintings on the site; a font mimicking an older style of script might seem tired and even cheesy. My mentor, Maranatha Ilesanmi, suggested that for research I visit similar websites, including gallery websites. A common theme on websites for major galleries, for example the Louvre and Wallace Collection where the paintings I have chosen are housed, is that they are sleek and modern.
 
