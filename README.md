@@ -22,6 +22,8 @@
 
 [Credits](#credits)
 
+[Acknowledgements](#acknowledgements)
+
 ## Purpose
 
 The purpose of the site Odd Art History is to provide interesting and odd information about art history, specifically older paintings. It acts as a small gallery, with a main hub and branching rooms, but instead of stuffy academic information, you'll learn something odd you didn't need to know but it'll be more fun.
@@ -80,9 +82,12 @@ Odd Resources page
 
 ![Resources page](assets/images/readme-images/resources-snip.jpg)
 
+Future implementations
+* On the painting pages I would like to introduce a second image with a detail from the painting; each will have a caption acting as a link and the user will be able to toggle between the two images. I worked towards this for a while using code from [Jess Mitchell](https://www.digitalocean.com/community/tutorials/css-css-only-click-handler) but ultimately realised I did not have time in this iteration. The 'heels' detail image has been left in the assets folder for future reference.
+
 ## User Stories
 
-A first time visitor who is new to art history and comes looking for information
+A first time visitor who is new to art history and comes to the site looking for information
 * I want to easily understand the content and layout of the site 
 * I want to intuitively navigate the site to browse content
 * I want to be able to access and use the website as intended on any device
@@ -185,11 +190,17 @@ Opera - &#9745;
 
 Safari - tbc
 
-Compatibility with Internet Explorer was also tested using [NetRenderer](https://netrenderer.com/). The site is compatible is IE11 but no older. In future iterations a 404 page may be developed for this situation.
+Compatibility with Internet Explorer was also tested using [NetRenderer](https://netrenderer.com/). The site is compatible in IE11 but no older. In future iterations a 404 page may be developed for this situation.
 
-I sent the live link to a few friends and family members for testing and feedback.
+I sent the live link to a few friends and family members for testing and feedback. No usability issues were detected, and design suggestions were considered and acted on.
 
 ## Debugging and known bugs
+
+Most of the debugging happened in relation to alignment issues. A lot of time was spent back and forth between Firefox dev tools and Gitpod trying out different approaches. Eventually I learned CSS Flexbox using [Flexbox Froggy](http://flexboxfroggy.com/) and was able to solve most of my alignment problems fairly swiftly. In the interest of neat and streamlined code I worked towards changing everything over to flexbox, but I had already built 90% of the site and was running low on time. I have changed some things where they look straightforward to me, but have not changed everything so as not to cause myself unnecessary work when I should be focussing on other aspects, like the nav bar and testing the site.
+
+A lot of debugging happened with the mobile/tablet navigation bar. Due to the gallery hub, the nav bar only has four links so I was keen to keep them on screen at all times. A hamburger menu is the most standard and intuitive option for mobile but I was worried about the complexity of a CSS-only hamburger option, and how accessible it would be. After struggling with alignment and responsiveness, with and without flexbox, I implemented an accessible hamburger option from [Mark Caron](https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793), as credited in the code and the credits section of the Readme.
+
+No known bugs. 
 
 ## Deployment
 
@@ -228,12 +239,14 @@ Content
 * Code for the tablet and mobile hamburger menu was adapted from Mark Caron's article at https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793 .
 * Assistance with visual design from Amelia Horan, as mentioned in Design section of readme.
 
-
 Media
 
 * All images were taken from Wikimedia commons and are in the public domain. References are provided on each page. The gallery page on all viewports uses the same source image as the painting pages.
 
+## Acknowledgements
 
+Many thanks to my mentor Marantha Ilesanmi for his help and advice. Thanks also to my friend Cameron Chamberlain for his advice.
 
+Sincere thanks to my wife Finola Connor for her feedback throughout the whole process, and coffee.
 
 
