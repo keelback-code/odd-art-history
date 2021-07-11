@@ -157,9 +157,27 @@ Frameworks, Libraries and Programs Used:
 
 ## Testing
 
-HTML validator - no errors, 2 warnings (check)
-CSS validator - no errors (check)
-Accessibility validator - 96/100 (check)
+[HTML validator](https://validator.w3.org/) - no errors, 2 warnings total (check)
+
+[CSS validator](https://jigsaw.w3.org/css-validator/) - no errors (check)
+
+[Accessibility validator](https://accessibilitytest.org/) - rating 96/100 (check)
+
+Browser Compatibility
+
+Browser Compatibility checks were run using [Browserling](https://www.browserling.com/)
+
+Firefox - &#9745;
+
+Chrome - &#9745;
+
+Opera - &#9745;
+
+Safari - tbc
+
+Compatibility with Internet Explorer was also tested using [NetRenderer](https://netrenderer.com/). The site is compatible is IE11 but no older. In future iterations a 404 page may be developed for this situation.
+
+I sent the live link to a few friends and family members for testing and feedback.
 
 ## Debugging and known bugs
 
@@ -176,11 +194,11 @@ The live link is:
 [Odd Art History](https://elyserh.github.io/odd-art-history/)
 
 Forking and Cloning
-To save a copy of the code, here are the steps for forking and cloning using Github:
+To save a copy of the code and work on it yourself, here are the steps for forking and cloning using Github:
 * In the repository, click the 'Fork' button, which is on the top right hand side, next to 'Star'.
 * Github will automatically create a new repo, which is forked from the original. If you would like to clone it you have two options:
-  * within the repository, click the 'Code' dropdown, which is located next to 'Add File' on the right (underneath the Settings tab) and there is an option to download all files and save a copy locally.
-  * in the same 'Code' dropdown, you can opt to open the code with GitHub Desktop and work from there
+  * Within the repository, click the 'Code' dropdown, which is located next to 'Add File' on the right (underneath the Settings tab); there is an option to download all files and save a copy locally.
+  * In the same 'Code' dropdown, you can opt to open the code with GitHub Desktop and work from there.
 
 ## Credits
 

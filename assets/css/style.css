@@ -86,7 +86,7 @@ footer {
 #gallery-images h3 {
     text-decoration: none;
     color: #fff7e9;
-    font-size: 2.25em;
+    font-size: 2.5em;
     background-color: rgba(0, 0, 0, 0.3);
     width: 100%;
     text-align: center;
@@ -408,11 +408,5 @@ legend {
     .suggestions-form-text {
         max-width: 80vw;
     }
-
-
-
-
-
-
 
 }
