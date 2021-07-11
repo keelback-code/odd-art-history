@@ -6,7 +6,8 @@ body {
     background-color: #fff7e9;
 }
 
-.menu-toggle, .menu-close {
+.menu-toggle,
+.menu-close {
     display: none;
 }
 
@@ -88,7 +89,7 @@ footer {
     font-size: 2.25em;
     background-color: rgba(0, 0, 0, 0.3);
     width: 100%;
-    text-align: center;   
+    text-align: center;
 }
 
 .gallery-shadow {
@@ -144,7 +145,7 @@ footer a:focus {
     hyphens: auto;
 }
 
-.painting-info p > a {
+.painting-info p>a {
     text-decoration: underline;
 }
 
@@ -161,7 +162,7 @@ footer a:focus {
 
 /*Styling for Suggestions page*/
 
-.suggestions-article {
+#suggestions-article {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -175,12 +176,13 @@ footer a:focus {
     font-size: smaller;
 }
 
-.suggestions-article header {
-    text-align: center;
+#suggestions-article header {
     max-width: 60vw;
+    text-align: justify;
+    hyphens: auto;
 }
 
-.suggestions-article h2 {
+#suggestions-article h2 {
     margin: 0 auto;
     padding-top: 20px;
 }
@@ -192,12 +194,13 @@ footer a:focus {
     border-radius: 6px;
 }
 
-.suggestions-form {
+#suggestions-form {
     margin-bottom: 20px;
 }
 
 fieldset {
     border: 5px #852a0d outset;
+    border-radius: 6px;
 }
 
 legend {
@@ -207,35 +210,37 @@ legend {
 
 /*Styling for Resources page*/
 
-.odd-resources-article {
+#odd-resources-article {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
 
-.odd-resources-article header {
+#odd-resources-article header {
     max-width: 60vw;
+    text-align: justify;
+    hyphens: auto;
 }
 
-.odd-resources-article h2 {
+#odd-resources-article h2 {
     margin: 0 auto;
     padding-top: 20px;
 }
 
-.odd-resources-article a {
+#odd-resources-article a {
     padding: 5px;
     max-width: 60vw;
     display: block;
     margin: 0 auto;
 }
 
-.odd-resources-article a:hover,
-.odd-resources-article a:focus {
+#odd-resources-article a:hover,
+#odd-resources-article a:focus {
     text-decoration: underline;
 }
 
-.odd-resources-article iframe {
+#odd-resources-article iframe {
     border-radius: 6px;
     border: 5px #852a0d outset;
     margin-bottom: 20px;
@@ -263,9 +268,10 @@ legend {
 /*Tablet and smaller styling for nav bar, headers, text and suggestion form submit button*/
 
 @media screen and (max-width: 800px) {
-    .suggestions-article header,
-    .odd-resources-article header,
-    .odd-resources-article a {
+
+    #suggestions-article header,
+    #odd-resources-article header,
+    #odd-resources-article a {
         max-width: 80vw;
     }
 
@@ -274,13 +280,14 @@ legend {
     }
 
     /* Aligning text and displaying hamburger in preparation for hamburger menu*/
-    
+
     .site-header {
         display: inline-block;
-        line-height: 1em;  
+        line-height: 1em;
     }
 
-    .menu-toggle, .menu-close {
+    .menu-toggle,
+    .menu-close {
         display: initial;
     }
 
@@ -397,14 +404,15 @@ legend {
         font-size: 2.5em;
     }
 
-    .painting-info p, .suggestions-form-text {
+    .painting-info p,
+    .suggestions-form-text {
         max-width: 80vw;
     }
 
 
-    
 
-    
 
-    
+
+
+
 }
