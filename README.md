@@ -11,6 +11,7 @@
 [Design and UX](#design-and-ux) 
 * [Wireframes](#wireframes)
 * [Colour schemes and typography](#colour-schemes-and-typography)
+* [Accessibility](#accessibility)
 
 [Technologies](#technologies)
 
@@ -26,7 +27,8 @@
 
 ## Purpose
 
-The purpose of the site Odd Art History is to provide interesting and odd information about art history, specifically older paintings. It acts as a small gallery, with a main hub and branching rooms, but instead of stuffy academic information, you'll learn something odd you didn't need to know but it'll be more fun.
+The purpose of the site Odd Art History is to provide interesting and odd information about art history, specifically older paintings that some may consider boring. It acts as a small gallery, with a main hub and branching rooms, but instead of stuffy academic information, you'll learn something odd you didn't need to know but it'll be more fun.
+
 The information is aimed to be presented to users who may consider the topic boring or uninteresting, or interested users who are looking for something new. The site aims to changes the minds of anyone who thought art history was boring and provide ways to further interact with the field through suggested resources, and multiple ways to get in contact.
 
 It can be found here:
@@ -38,7 +40,7 @@ It can be found here:
 ## Features
 
 Features across all pages
-* Clear header and site ‘slogan’, making the purpose clear to users of the site.
+* Clear header and site ‘slogan’ (odd facts about old paintings), making the purpose clear to users of the site.
 * Navigation links listing Gallery, Odd Resources, Suggestions and Say Hi (which will link to Facebook), allowing for easy and intuitive navigation of site for all users. On desktop links will be underlined when they are hovered over to indicate to the user that they are clickable.
 * On mobile and most tablets the navigation bar will change to a hamburger design and will remain on the same side of the screen for continuity and ease of use.
 * Footer mirroring design of navigation links, which will link back to top of page, allowing for further easy navigation. Link will also be underlined when hovered over.
@@ -52,7 +54,7 @@ Features across all pages
 Gallery (home/landing page)
 * Three main images with text that links to painting pages - each one is a ‘hint’ of the painting, with a hint word and hint image. The aim of the images is to make the user curious about the content. The whole image acts as the link for intuitive use.
 * The 'hint' link/text on each image is large and contrasting, to make it obvious to the user that it is important. It is also underlined when hovered over for the same reason.
-* Images are page width on all devices; the large size of the paintings is mimicking a gallery and providing appealling visual content.
+* Images are page width on all devices; the large size of the paintings is mimicking a gallery and providing appealing visual content.
 * Highest quality images available have been used; important for user to get as close experience as possible to viewing the painting in real life.
 
 ![Top half of gallery page](assets/images/readme-images/gallery-snip.jpg)
@@ -151,6 +153,13 @@ The hamburger used for the mobile menu uses a darker red; the original red was t
 
 For the fonts, Lato is used for the headings/titles and Source Sans Pro for the main content, with Sans-Serif provided as a back-up for both. A modern font was deliberately chosen to juxtapose the paintings on the site; a font mimicking an older style of script might seem tired and even cheesy. My mentor, Maranatha Ilesanmi, suggested that for research I visit similar websites, including gallery websites. A common theme on websites for major galleries, for example the Louvre and Wallace Collection where the paintings I have chosen are housed, is that they are sleek and modern.
 
+## Accessibility
+
+Despite the fact that this website has a strong visual aspect, I wanted it to be an accessible one. Research and tests have been undertaken; semantic html and labelling are used appropriately throughout the html. This is my first time coding html so there will undoubtedly be gaps in my knowledge as to what is achievable.
+
+In relation to screenreaders specifically, the biggest difference between the experience of someone visiting my site using a screenreader versus without one is the visual aspect of a gallery. I tried to adapt to this by using descriptive aria labels that fit with the context of the site.
+
+[Guide to writing context-based alt texts from Axess Lab](https://axesslab.com/alt-texts/)
 
 ## Technologies
 
@@ -188,11 +197,13 @@ Chrome - &#9745;
 
 Opera - &#9745;
 
-Safari - tbc
+Safari - &#9745;
 
 Compatibility with Internet Explorer was also tested using [NetRenderer](https://netrenderer.com/). The site is compatible in IE11 but no older. In future iterations a 404 page may be developed for this situation.
 
 I sent the live link to a few friends and family members for testing and feedback. No usability issues were detected, and design suggestions were considered and acted on.
+
+manual testing chart/doc here
 
 ## Debugging and known bugs
 
@@ -205,6 +216,7 @@ No known bugs.
 ## Deployment
 
 Publishing
+
 The project was deployed using GitHub pages. The steps to deploy using GitHub pages are:
 * In the repository, click the 'Settings' tab, which is the furthest to the right
 * Scroll down until you see the 'Pages' tab, which will be in the menu on the left hand side
@@ -215,6 +227,7 @@ The live link is:
 [Odd Art History](https://elyserh.github.io/odd-art-history/)
 
 Forking and Cloning
+
 To save a copy of the code and work on it yourself, here are the steps for forking and cloning using Github:
 * In the repository, click the 'Fork' button, which is on the top right hand side, next to 'Star'.
 * Github will automatically create a new repo, which is forked from the original. If you would like to clone it you have two options:
