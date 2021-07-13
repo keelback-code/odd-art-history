@@ -27,7 +27,7 @@
 
 ## Purpose
 
-The purpose of the site Odd Art History is to provide interesting and odd information about art history, specifically older paintings that some may consider boring. It acts as a small gallery, with a main hub and branching rooms, but instead of stuffy academic information, you'll learn something odd you didn't need to know but it'll be more fun.
+The purpose of the site Odd Art History is to provide interesting and odd information about art history, specifically older paintings that some may consider boring. The site acts as a small gallery, with a main hub and branching rooms, each with their own painting. However, instead of stuffy academic information provided about each work, you'll learn something odd you didn't need to know and hopefully it'll be more fun.
 
 The information is aimed to be presented to users who may consider the topic boring or uninteresting, or interested users who are looking for something new. The site aims to changes the minds of anyone who thought art history was boring and provide ways to further interact with the field through suggested resources, and multiple ways to get in contact.
 
@@ -89,7 +89,7 @@ Future implementations
 
 ## User Stories
 
-A first time visitor who is new to art history and comes to the site looking for information
+A first time visitor who is new to art history and comes to the site looking for information:
 * I want to easily understand the content and layout of the site 
 * I want to intuitively navigate the site to browse content
 * I want to be able to access and use the website as intended on any device
@@ -204,6 +204,80 @@ Compatibility with Internet Explorer was also tested using [NetRenderer](https:/
 I sent the live link to a few friends and family members for testing and feedback. No usability issues were detected, and design suggestions were considered and acted on.
 
 manual testing chart/doc here
+
+User Stories Testing
+
+A first time visitor who is new to art history and comes looking for information:
+
+*I want to easily understand the content and layout of the site*
+
+* Simple and clear landing page with content that can be interacted with simply and obviously (whole div/image is clickable link to painting page, on desktop link is underlined when hovered over
+
+*I want to intuitively navigate the site to browse content*
+
+* All pages will have a navigation bar; additionally the painting pages will have a ‘Back to Gallery’ link under the block of text, in case they are information heavy, to minimise sensory overload. The h1 on every page also links back to the home page, as this is standard on most sites.
+
+*I want to be able to access and use the website as intended on any device*
+
+* Responsive design for different viewports, including a hamburger menu for mobiles and smaller tablets
+
+*I want to view interesting information on paintings *
+
+* Painting pages will have odd facts on each painting, and Odd Resources page will have further information if user is still interested
+
+*I want to find further information and non-academic resources*
+
+* The Odd Resources page will provide further non-academic information
+
+A first time visitor who is already interested in the field and comes to the site looking for something different to the usual academic information (such as Jstor):
+
+*I want to easily understand the content and layout of the site*
+
+*I want to intuitively navigate the site to browse content*
+
+*I want to be able to access and use the website as intended on any device*
+
+*I want to view interesting information on paintings*
+
+*I want to find further information and non-academic resources*
+
+*I want to view sources for information if needed*
+
+* Each painting page will have links and references for the information and images used. In theory, if user suggestions are added to the site then the user name would also be added (with their permission).
+
+A returning visitor wishing to contribute to the site:
+
+*I want to to suggest a painting or artwork to be featured*
+
+* Suggestions page provides a clear way to suggest a painting through a form
+
+*I want to be able to contact the site owner*
+
+* The Say Hi link on the nav bar will link directly to the relevant Facebook page
+
+A disabled user who is new or returning to the site:
+
+*I want to be able to access and use the site in the same way as any of the aforementioned visitors*
+
+* Built in accessibility options including aria labels and semantic html, tested at https://accessibilitytest.org/
+
+As the owner of the site:
+
+*I want users to be able to use the site easily and intuitively*
+
+* Simple and clear landing page with content that can be interacted with simply and obviously; intuitive navigation on all pages
+
+*I want users to be introduced to something new and fun*
+
+* Painting pages will have odd facts on each painting, and Odd Resources page will have further information if user is still interested
+
+*I want users to be able to contact me to suggest paintings or just to get in touch*
+
+* Suggestions page and Say Hi link
+
+*I want to provide the same experience for all users*
+
+* Built in accessibility options including aria labels and semantic html, tested at https://accessibilitytest.org/
 
 ## Debugging and known bugs
 
