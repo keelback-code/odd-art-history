@@ -18,6 +18,7 @@
 [Testing ](#testing)
 * [Code Validation](#code-validation)
 * [Browser Compatibility](#browser-compatibility)
+* [Performance Testing](#performance-testing)
 * [Manual Testing](#manual-testing)
 * [User Stories Testing](#user-stories-testing)
 
@@ -40,60 +41,6 @@ It can be found here:
 [Odd Art History](https://elyserh.github.io/odd-art-history/)
 
 ![Screenshot](assets/images/readme-images/odd-art-history-screenshot-screens.jpg)
-
-## Features
-
-Features across all pages
-* Clear header and site ‘slogan’ (odd facts about old paintings), making the purpose clear to users of the site.
-* Navigation links listing Gallery, Odd Resources, Suggestions and Say Hi (which will link to Facebook), allowing for easy and intuitive navigation of site for all users. On desktop links will be underlined when they are hovered over to indicate to the user that they are clickable.
-* On mobile and most tablets the navigation bar will change to a hamburger design and will remain on the same side of the screen for continuity and ease of use.
-* Footer mirroring design of navigation links, which will link back to top of page, allowing for further easy navigation. Link will also be underlined when hovered over.
-* Header will always remain at top of page (will not be sticky) and footer will always remain at bottom of page as user scrolls in order to allow for maximum view of visual content. Easy return to the home page will be provided to counteract this feature. The main purpose of the footer will be to link to the top of the page, so that the user does not have to scroll back up.
-* The header 'Odd Art History' is also a link to the gallery page. It is not underlined when hovered over because it is not part of the navigation bar, but it is a link because this is common on web pages and therefore intuitive to modern web users.
-
-Header
-![Header](assets/images/readme-images/header-snip.jpg)
-Footer
-![Footer](assets/images/readme-images/footer-snip.jpg)
-Mobile/Tablet navigation
-
-<img width="200" src="assets/images/readme-images/nav-mobile-snip.jpg" alt="Mobile Nav Bar">  
-
-Gallery (home/landing page)
-* Three main images with text that links to painting pages - each one is a ‘hint’ of the painting, with a hint word and hint image. The aim of the images is to make the user curious about the content. The whole image acts as the link for intuitive use.
-* The 'hint' link/text on each image is large and contrasting, to make it obvious to the user that it is important. It is also underlined when hovered over for the same reason.
-* Images are page width on all devices; the large size of the paintings is mimicking a gallery and providing appealing visual content.
-* Highest quality images available have been used; important for user to get as close experience as possible to viewing the painting in real life.
-
-![Top half of gallery page](assets/images/readme-images/gallery-snip.jpg)
-
-Painting pages (x3, ‘heels’, ‘bushes’, ‘balloons’)
-* Spokes from gallery hub (design choice and value explained in UX section of readme).
-* Full size painting with title, similarly to the home page, the images are presented fairly large in order to mimick a gallery experience.
-* Informative and interesting text about painting with link back to gallery page for easy navigation, deliberately providing multiple ways to return to the landing page to counteract spoke aspect when needed.
-* Links to image and text references clearly provided, with icons from Fontawesome as added visual cues.
-
-Top part of page
-![Top half of painting page](assets/images/readme-images/painting-snip-top.jpg)
-
-Bottom part of page
-![Bottom half of painting page](assets/images/readme-images/painting-snip-bottom.jpg)
-
-Suggestions page
-* Easy to use form for users to suggest odd paintings; make it simple for users to submit paintings with adequate space. Fun and different way to interact with the site.
-* Optional to provide contact details (theoretically if site owner chooses a painting, they would contact the user and ask if okay to use their name, or possibly for more info).
-* Submit button will open in a new tab so that users do not navigate away from site entirely.
-
-![Suggestions page](assets/images/readme-images/suggestions-snip.jpg)
-
-Odd Resources page
-* Page with links to further information; hopefully the site will have piqued the user's interest in odd art history and an easy-to-find page of further information will help them on their journey. All links will open in a new tab, with aria labels announcing the same.
-* There will be an embedded video, as a teaser for one of the resources; it will not autoplay. The video thumbnail will also add visual interest to the page.
-
-![Resources page](assets/images/readme-images/resources-snip.jpg)
-
-Future implementations
-* On the painting pages I would like to introduce an interactive element; a second image with a detail from the painting. Each image will have a caption acting as a link and the user will be able to toggle between the two images. I worked towards this for a while using code from [Jess Mitchell](https://www.digitalocean.com/community/tutorials/css-css-only-click-handler) but ultimately realised I did not have time in this iteration. The 'heels' detail image (rigaud-louis-xiv-heels-detail.jpg) has been left in the assets folder for future reference.
 
 ## User Stories
 
@@ -167,6 +114,60 @@ In relation to screenreaders specifically, the biggest difference between the ex
 
 [Guide to writing context-based alt texts from Axess Lab](https://axesslab.com/alt-texts/)  
 
+## Features
+
+Features across all pages
+* Clear header and site ‘slogan’ (odd facts about old paintings), making the purpose clear to users of the site.
+* Navigation links listing Gallery, Odd Resources, Suggestions and Say Hi (which will link to Facebook), allowing for easy and intuitive navigation of site for all users. On desktop links will be underlined when they are hovered over to indicate to the user that they are clickable.
+* On mobile and most tablets the navigation bar will change to a hamburger design and will remain on the same side of the screen for continuity and ease of use.
+* Footer mirroring design of navigation links, which will link back to top of page, allowing for further easy navigation. Link will also be underlined when hovered over.
+* Header will always remain at top of page (will not be sticky) and footer will always remain at bottom of page as user scrolls in order to allow for maximum view of visual content. Easy return to the home page will be provided to counteract this feature. The main purpose of the footer will be to link to the top of the page, so that the user does not have to scroll back up.
+* The header 'Odd Art History' is also a link to the gallery page. It is not underlined when hovered over because it is not part of the navigation bar, but it is a link because this is common on web pages and therefore intuitive to modern web users.
+
+Header
+![Header](assets/images/readme-images/header-snip.jpg)
+Footer
+![Footer](assets/images/readme-images/footer-snip.jpg)
+Mobile/Tablet navigation
+
+<img width="200" src="assets/images/readme-images/nav-mobile-snip.jpg" alt="Mobile Nav Bar">  
+
+Gallery (home/landing page)
+* Three main images with text that links to painting pages - each one is a ‘hint’ of the painting, with a hint word and hint image. The aim of the images is to make the user curious about the content. The whole image acts as the link for intuitive use.
+* The 'hint' link/text on each image is large and contrasting, to make it obvious to the user that it is important. It is also underlined when hovered over for the same reason.
+* Images are page width on all devices; the large size of the paintings is mimicking a gallery and providing appealing visual content.
+* Highest quality images available have been used; important for user to get as close experience as possible to viewing the painting in real life.
+
+![Top half of gallery page](assets/images/readme-images/gallery-snip.jpg)
+
+Painting pages (x3, ‘heels’, ‘bushes’, ‘balloons’)
+* Spokes from gallery hub (design choice and value explained in UX section of readme).
+* Full size painting with title, similarly to the home page, the images are presented fairly large in order to mimick a gallery experience.
+* Informative and interesting text about painting with link back to gallery page for easy navigation, deliberately providing multiple ways to return to the landing page to counteract spoke aspect when needed.
+* Links to image and text references clearly provided, with icons from Fontawesome as added visual cues.
+
+Top part of page
+![Top half of painting page](assets/images/readme-images/painting-snip-top.jpg)
+
+Bottom part of page
+![Bottom half of painting page](assets/images/readme-images/painting-snip-bottom.jpg)
+
+Suggestions page
+* Easy to use form for users to suggest odd paintings; make it simple for users to submit paintings with adequate space. Fun and different way to interact with the site.
+* Optional to provide contact details (theoretically if site owner chooses a painting, they would contact the user and ask if okay to use their name, or possibly for more info).
+* Submit button will open in a new tab so that users do not navigate away from site entirely.
+
+![Suggestions page](assets/images/readme-images/suggestions-snip.jpg)
+
+Odd Resources page
+* Page with links to further information; hopefully the site will have piqued the user's interest in odd art history and an easy-to-find page of further information will help them on their journey. All links will open in a new tab, with aria labels announcing the same.
+* There will be an embedded video, as a teaser for one of the resources; it will not autoplay. The video thumbnail will also add visual interest to the page.
+
+![Resources page](assets/images/readme-images/resources-snip.jpg)
+
+Future implementations
+* On the painting pages I would like to introduce an interactive element; a second image with a detail from the painting. Each image will have a caption acting as a link and the user will be able to toggle between the two images. I worked towards this for a while using code from [Jess Mitchell](https://www.digitalocean.com/community/tutorials/css-css-only-click-handler) but ultimately realised I did not have time in this iteration.
+
 ## Technologies
 
 Languages used:
@@ -210,6 +211,8 @@ Safari - &#9745;
 Microsoft Edge - &#9745;
 
 Compatibility with Internet Explorer was also tested using [NetRenderer](https://netrenderer.com/). The site is compatible in IE11 but no older. In future iterations a 404 page may be developed for this situation.
+
+### Performance Testing
 
 ### Manual Testing
 
