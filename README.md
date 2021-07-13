@@ -57,7 +57,7 @@ Footer
 ![Footer](assets/images/readme-images/footer-snip.jpg)
 Mobile/Tablet navigation
 
-<img align="center" width="200" src="assets/images/readme-images/nav-mobile-snip.jpg" alt="Mobile Nav Bar">  
+<img width="200" src="assets/images/readme-images/nav-mobile-snip.jpg" alt="Mobile Nav Bar">  
 
 Gallery (home/landing page)
 * Three main images with text that links to painting pages - each one is a ‘hint’ of the painting, with a hint word and hint image. The aim of the images is to make the user curious about the content. The whole image acts as the link for intuitive use.

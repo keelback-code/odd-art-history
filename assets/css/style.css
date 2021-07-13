@@ -168,6 +168,12 @@ footer a:focus {
 
 .suggestions-form-text {
     font-family: 'Source Sans Pro', sans-serif;
+    width: 50vw;
+    box-sizing: border-box;
+}
+
+#submit-button {
+    width: initial;
 }
 
 #artwork-reason {
@@ -263,7 +269,7 @@ legend {
 
 }
 
-/*Tablet and smaller styling for nav bar, headers, text and suggestion form submit button*/
+/*Tablet and smaller styling for nav bar, headers and text*/
 
 @media screen and (max-width: 800px) {
 
@@ -271,10 +277,6 @@ legend {
     #odd-resources-article header,
     #odd-resources-article a {
         max-width: 80vw;
-    }
-
-    #submit-button {
-        width: initial;
     }
 
     /* Aligning text and displaying hamburger in preparation for hamburger menu*/
