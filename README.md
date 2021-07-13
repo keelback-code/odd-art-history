@@ -85,7 +85,7 @@ Odd Resources page
 ![Resources page](assets/images/readme-images/resources-snip.jpg)
 
 Future implementations
-* On the painting pages I would like to introduce a second image with a detail from the painting; each will have a caption acting as a link and the user will be able to toggle between the two images. I worked towards this for a while using code from [Jess Mitchell](https://www.digitalocean.com/community/tutorials/css-css-only-click-handler) but ultimately realised I did not have time in this iteration. The 'heels' detail image has been left in the assets folder for future reference.
+* On the painting pages I would like to introduce a second image with a detail from the painting; each will have a caption acting as a link and the user will be able to toggle between the two images. I worked towards this for a while using code from [Jess Mitchell](https://www.digitalocean.com/community/tutorials/css-css-only-click-handler) but ultimately realised I did not have time in this iteration. The 'heels' detail image (rigaud-louis-xiv-heels-detail.jpg) has been left in the assets folder for future reference.
 
 ## User Stories
 
@@ -191,7 +191,7 @@ Frameworks, Libraries and Programs Used:
 
 ### Browser Compatibility
 
-Browser Compatibility checks were run using [Browserling](https://www.browserling.com/)
+Browser Compatibility checks were run using [Browserling](https://www.browserling.com/) and my own computer. The results are:
 
 Firefox - &#9745;
 
@@ -201,13 +201,17 @@ Opera - &#9745;
 
 Safari - &#9745;
 
+Microsoft Edge - &#9745;
+
 Compatibility with Internet Explorer was also tested using [NetRenderer](https://netrenderer.com/). The site is compatible in IE11 but no older. In future iterations a 404 page may be developed for this situation.
 
 ### Manual Testing
 
 I sent the live link to a few friends and family members for testing and feedback. No usability issues were detected, and design suggestions were considered and acted on.
 
-manual testing chart/doc here
+I conducted manual testing and recorded the results as follows:
+
+![Manual testing spreadsheet](assets/images/readme-images/manual-testing-ss.jpg)
 
 ### User Stories Testing
 
