@@ -49,7 +49,7 @@ Features across all pages
 
 ![Header](assets/images/readme-images/header-snip.jpg)
 ![Footer](assets/images/readme-images/footer-snip.jpg)
-<img align="center" width="200" src="assets/images/readme-images/nav-mobile-snip.jpg">
+<img align="center" width="200" src="assets/images/readme-images/nav-mobile-snip.jpg" alt="Mobile Nav Bar">
 
 Gallery (home/landing page)
 * Three main images with text that links to painting pages - each one is a ‘hint’ of the painting, with a hint word and hint image. The aim of the images is to make the user curious about the content. The whole image acts as the link for intuitive use.
@@ -85,7 +85,7 @@ Odd Resources page
 ![Resources page](assets/images/readme-images/resources-snip.jpg)
 
 Future implementations
-* On the painting pages I would like to introduce a second image with a detail from the painting; each will have a caption acting as a link and the user will be able to toggle between the two images. I worked towards this for a while using code from [Jess Mitchell](https://www.digitalocean.com/community/tutorials/css-css-only-click-handler) but ultimately realised I did not have time in this iteration. The 'heels' detail image (rigaud-louis-xiv-heels-detail.jpg) has been left in the assets folder for future reference.
+* On the painting pages I would like to introduce an interactive element; a second image with a detail from the painting. Each image will have a caption acting as a link and the user will be able to toggle between the two images. I worked towards this for a while using code from [Jess Mitchell](https://www.digitalocean.com/community/tutorials/css-css-only-click-handler) but ultimately realised I did not have time in this iteration. The 'heels' detail image (rigaud-louis-xiv-heels-detail.jpg) has been left in the assets folder for future reference.
 
 ## User Stories
 
@@ -126,7 +126,7 @@ I have included the Gallery, Odd Resources and Suggestions page on the nav bar s
 
 ## Wireframes
 
-Wireframes were produced using Balsamiq. Ultimately the final site followed the broad strokes of the designs but the key point that differed is that the title, subtitle and navigation links all ended up being on one axis, instead of having a separate navigation bar. I originally built the site as per the design in these wireframes, but the content in these elements does not take up much space and a lot of empty space was created. Visual design is not my forte, so I reached out to my sister Amelia Horan for assistance with the visual design. After talking through the design with her, I ended up with the design shown in the readme screenshots section.
+Wireframes were produced using Balsamiq. Ultimately the final site followed the broad strokes of the designs but the key point that differed is that the navigation bar ened up being on the same line as the title, and for smaller viewports I changed to a hamburger menu. I originally built the site as per the design in these wireframes, but the content in these elements does not take up much space and a lot of empty space was created. Visual design is not my forte, so I reached out to my sister Amelia Horan for assistance with the visual design. After talking through the design with her, I ended up with the design shown in the readme screenshots section.
 
 Gallery page
 ![Gallery page](assets/images/readme-images/wireframe-gallery.png)
@@ -145,9 +145,7 @@ Suggestions page
 I used Google Fonts for the typography, and initially used colormind.io to choose a colour scheme. After speaking to my sister Amelia about the design we narrowed the colors down to the 3 shown below. I wanted to include a red accent, to mirror Louis XIV’s heels in Rigaud’s portrait, and used eyedropper.org to pick the colour from the original picture (#852a0d). A cream background (#fff7e9) was chosen for the whole site, to provide a contrast but not be too stark.
 The main text is a dark navy, which is from the original colormind scheme (#20344a).
 
-<p align="center">
-  <img src="assets/images/readme-images/oarht-final-colors.jpg">
-</p>
+![Colour trio](assets/images/readme-images/oarht-final-colors.jpg)
 
 The hamburger used for the mobile menu uses a darker red; the original red was too bright against the shadow background so I used Gitpod's built in dropper tool to find a darker shade (#681b04). This also provides a better contrast with the cream text.
 
@@ -159,7 +157,7 @@ Despite the fact that this website has a strong visual aspect, I wanted it to be
 
 In relation to screenreaders specifically, the biggest difference between the experience of someone visiting my site using a screenreader versus without one is the visual aspect of a gallery. I tried to adapt to this by using descriptive aria labels that fit with the context of the site.
 
-[Guide to writing context-based alt texts from Axess Lab](https://axesslab.com/alt-texts/)
+[Guide to writing context-based alt texts from Axess Lab](https://axesslab.com/alt-texts/)  
 
 ## Technologies
 
@@ -215,8 +213,7 @@ I conducted manual testing and recorded the results as follows:
 
 ### User Stories Testing
 
-
-A first time visitor who is new to art history and comes looking for information:
+**A first time visitor who is new to art history and comes looking for information:**
 
 *I want to easily understand the content and layout of the site*
 
@@ -230,23 +227,21 @@ A first time visitor who is new to art history and comes looking for information
 
 * Responsive design for different viewports, including a hamburger menu for mobiles and smaller tablets
 
-*I want to view interesting information on paintings *
+*I want to view interesting information on paintings*
 
 * Painting pages will have odd facts on each painting, and Odd Resources page will have further information if user is still interested
 
 *I want to find further information and non-academic resources*
 
-* The Odd Resources page will provide further non-academic information
+* The Odd Resources page will provide further non-academic information    
 
-
-A first time visitor who is already interested in the field and comes to the site looking for something different to the usual academic information (such as Jstor):
+**A first time visitor who is already interested in the field and comes to the site looking for something different to the usual academic information:**
 
 *I want to view sources for information if needed*
 
 * Each painting page will have links and references for the information and images used. In theory, if user suggestions are added to the site then the user name would also be added (with their permission).
 
-
-A returning visitor wishing to contribute to the site:
+**A returning visitor wishing to contribute to the site:**
 
 *I want to to suggest a painting or artwork to be featured*
 
@@ -257,14 +252,13 @@ A returning visitor wishing to contribute to the site:
 * The Say Hi link on the nav bar will link directly to the relevant Facebook page
 
 
-A disabled user who is new or returning to the site:
+**A disabled user who is new or returning to the site:**
 
 *I want to be able to access and use the site in the same way as any of the aforementioned visitors*
 
 * Built in accessibility options including aria labels and semantic html, tested at https://accessibilitytest.org/
 
-
-As the owner of the site:
+**As the owner of the site:**
 
 *I want users to be able to use the site easily and intuitively*
 
@@ -282,12 +276,11 @@ As the owner of the site:
 
 * Built in accessibility options including aria labels and semantic html, tested at https://accessibilitytest.org/
 
-
 ## Debugging and known bugs
 
 Most of the debugging happened in relation to alignment issues. A lot of time was spent back and forth between Firefox dev tools and Gitpod trying out different approaches. Eventually I learned CSS Flexbox using [Flexbox Froggy](http://flexboxfroggy.com/) and was able to solve most of my alignment problems fairly swiftly. In the interest of neat and streamlined code I worked towards changing everything over to flexbox, but I had already built 90% of the site and was running low on time. I have changed some things where they could be changed without causing other issues on the page, but have not changed everything so as not to cause myself unnecessary work when I should be focussing on other aspects, like the nav bar and testing the site.
 
-A lot of debugging happened with the mobile/tablet navigation bar. Due to the gallery hub, the nav bar only has four links so I was keen to keep them on screen at all times. A hamburger menu is the most standard and intuitive option for mobile but I was worried about the complexity of a CSS-only hamburger option, and how accessible it would be. After struggling with alignment and responsiveness, with and without flexbox, I implemented an accessible hamburger option from [Mark Caron](https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793), as credited in the code and the credits section of the Readme.
+A lot of debugging happened with the mobile/tablet navigation bar. Due to the gallery hub design, the nav bar only has four links so I was keen to keep them on screen at all times. A hamburger menu is the most standard and intuitive option for mobile but I was worried about the complexity of a CSS-only hamburger option, and how accessible it would be. After struggling with alignment and responsiveness, with and without flexbox, I implemented an accessible hamburger option from [Mark Caron](https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793), as credited in the code and the credits section of the Readme.
 
 No known bugs. 
 
@@ -333,11 +326,13 @@ Content
 Media
 
 * All images were taken from Wikimedia commons and are in the public domain. References are provided on each page. The gallery page on all viewports uses the same source image as the painting pages.
+* Embedded Youtube video is from Hannah Gadsby's Youtube channel:
+  * [Renaissance Woman](https://www.youtube.com/channel/UCrePJ4z2YahU4KwClbaUdYQ)
 
 ## Acknowledgements
 
 Many thanks to my mentor Marantha Ilesanmi for his help and advice. Thanks also to my friend Cameron Chamberlain for his advice.
 
-Sincere thanks to my wife Finola Connor for her invaluable feedback and patient ear throughout the whole process, and making me coffee.
+Sincere thanks to my wife Finola Connor for her invaluable feedback and patient ear throughout the whole process, and for making me coffee.
 
 
