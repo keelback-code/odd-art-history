@@ -119,7 +119,6 @@ footer a:focus {
     clear: both;
 }
 
-
 /*styling for all 3 painting pages*/
 
 .painting {
@@ -158,7 +157,6 @@ footer a:focus {
     opacity: 0.75;
     color: #852a0d;
 }
-
 
 /*Styling for Suggestions page*/
 
@@ -291,7 +289,7 @@ legend {
         display: initial;
     }
 
-    /* Styling for hamburger menu, adapted from Mark Caron at https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793  */
+    /* CSS for hamburger menu, adapted from Mark Caron at https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793  */
 
     .sr-only {
         position: absolute;
@@ -387,6 +385,8 @@ legend {
             position: fixed;
         }
     }
+
+    /*End of adapted code*/
 }
 
 /*Mobile styling for site header to fit alongside hamburger, along with suggestions form and other text*/

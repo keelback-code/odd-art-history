@@ -181,13 +181,15 @@ Frameworks, Libraries and Programs Used:
 
 ## Testing
 
-[HTML validator](https://validator.w3.org/) - no errors, 2 warnings total (check)
+### Code Validation
 
-[CSS validator](https://jigsaw.w3.org/css-validator/) - no errors (check)
+[HTML validator](https://validator.w3.org/) - no errors, 2 warnings total (check final edit)
 
-[Accessibility validator](https://accessibilitytest.org/) - rating 96/100 (check)
+[CSS validator](https://jigsaw.w3.org/css-validator/) - no errors (check final edit)
 
-Browser Compatibility
+[Accessibility validator](https://accessibilitytest.org/) - rating 96/100 (check final edit)
+
+### Browser Compatibility
 
 Browser Compatibility checks were run using [Browserling](https://www.browserling.com/)
 
@@ -201,11 +203,14 @@ Safari - &#9745;
 
 Compatibility with Internet Explorer was also tested using [NetRenderer](https://netrenderer.com/). The site is compatible in IE11 but no older. In future iterations a 404 page may be developed for this situation.
 
+### Manual Testing
+
 I sent the live link to a few friends and family members for testing and feedback. No usability issues were detected, and design suggestions were considered and acted on.
 
 manual testing chart/doc here
 
-User Stories Testing
+### User Stories Testing
+
 
 A first time visitor who is new to art history and comes looking for information:
 
@@ -229,21 +234,13 @@ A first time visitor who is new to art history and comes looking for information
 
 * The Odd Resources page will provide further non-academic information
 
+
 A first time visitor who is already interested in the field and comes to the site looking for something different to the usual academic information (such as Jstor):
-
-*I want to easily understand the content and layout of the site*
-
-*I want to intuitively navigate the site to browse content*
-
-*I want to be able to access and use the website as intended on any device*
-
-*I want to view interesting information on paintings*
-
-*I want to find further information and non-academic resources*
 
 *I want to view sources for information if needed*
 
 * Each painting page will have links and references for the information and images used. In theory, if user suggestions are added to the site then the user name would also be added (with their permission).
+
 
 A returning visitor wishing to contribute to the site:
 
@@ -255,11 +252,13 @@ A returning visitor wishing to contribute to the site:
 
 * The Say Hi link on the nav bar will link directly to the relevant Facebook page
 
+
 A disabled user who is new or returning to the site:
 
 *I want to be able to access and use the site in the same way as any of the aforementioned visitors*
 
 * Built in accessibility options including aria labels and semantic html, tested at https://accessibilitytest.org/
+
 
 As the owner of the site:
 
@@ -279,9 +278,10 @@ As the owner of the site:
 
 * Built in accessibility options including aria labels and semantic html, tested at https://accessibilitytest.org/
 
+
 ## Debugging and known bugs
 
-Most of the debugging happened in relation to alignment issues. A lot of time was spent back and forth between Firefox dev tools and Gitpod trying out different approaches. Eventually I learned CSS Flexbox using [Flexbox Froggy](http://flexboxfroggy.com/) and was able to solve most of my alignment problems fairly swiftly. In the interest of neat and streamlined code I worked towards changing everything over to flexbox, but I had already built 90% of the site and was running low on time. I have changed some things where they look straightforward to me, but have not changed everything so as not to cause myself unnecessary work when I should be focussing on other aspects, like the nav bar and testing the site.
+Most of the debugging happened in relation to alignment issues. A lot of time was spent back and forth between Firefox dev tools and Gitpod trying out different approaches. Eventually I learned CSS Flexbox using [Flexbox Froggy](http://flexboxfroggy.com/) and was able to solve most of my alignment problems fairly swiftly. In the interest of neat and streamlined code I worked towards changing everything over to flexbox, but I had already built 90% of the site and was running low on time. I have changed some things where they could be changed without causing other issues on the page, but have not changed everything so as not to cause myself unnecessary work when I should be focussing on other aspects, like the nav bar and testing the site.
 
 A lot of debugging happened with the mobile/tablet navigation bar. Due to the gallery hub, the nav bar only has four links so I was keen to keep them on screen at all times. A hamburger menu is the most standard and intuitive option for mobile but I was worried about the complexity of a CSS-only hamburger option, and how accessible it would be. After struggling with alignment and responsiveness, with and without flexbox, I implemented an accessible hamburger option from [Mark Caron](https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793), as credited in the code and the credits section of the Readme.
 
@@ -334,6 +334,6 @@ Media
 
 Many thanks to my mentor Marantha Ilesanmi for his help and advice. Thanks also to my friend Cameron Chamberlain for his advice.
 
-Sincere thanks to my wife Finola Connor for her feedback throughout the whole process, and coffee.
+Sincere thanks to my wife Finola Connor for her invaluable feedback and patient ear throughout the whole process, and making me coffee.
 
 
