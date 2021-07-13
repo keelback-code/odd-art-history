@@ -188,6 +188,9 @@ Frameworks, Libraries and Programs Used:
 
 ## Testing
 
+Lighthouse results:
+![Lighthouse results](assets/images/readme-images/lighthouse-results.jpg)
+
 ### Code Validation
 
 [HTML validator](https://validator.w3.org/) - no errors, 2 warnings total (check final edit)
@@ -213,6 +216,9 @@ Microsoft Edge - &#9745;
 Compatibility with Internet Explorer was also tested using [NetRenderer](https://netrenderer.com/). The site is compatible in IE11 but no older. In future iterations a 404 page may be developed for this situation.
 
 ### Performance Testing
+
+Performance testing was conducted using [Lighthouse](https://developers.google.com/web/tools/lighthouse#devtools). The results are:
+![Lighthouse performance results](assets/images/readme-images/lighthouse-performance-results.jpg)
 
 ### Manual Testing
 
