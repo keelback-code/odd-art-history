@@ -293,6 +293,8 @@ Most of the debugging happened in relation to alignment issues. A lot of time wa
 
 A lot of debugging happened with the mobile/tablet navigation bar. Due to the gallery hub design, the nav bar only has four links so I was keen to keep them on screen at all times. A hamburger menu is the most standard and intuitive option for mobile but I was worried about the complexity of a CSS-only hamburger option, and how accessible it would be. After struggling with alignment and responsiveness, with and without flexbox, I implemented an accessible hamburger option from [Mark Caron](https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793), as credited in the code and the credits section of the Readme.
 
+Part way through the project I received feedback from my mentor that my git commit messages have been running too long; since then and onwards I have made the effort to keep them short.
+
 No known bugs. 
 
 ## Deployment
