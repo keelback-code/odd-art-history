@@ -16,6 +16,10 @@
 [Technologies](#technologies)
 
 [Testing ](#testing)
+* [Code Validation](#code-validation)
+* [Browser Compatibility](#browser-compatibility)
+* [Manual Testing](#manual-testing)
+* [User Stories Testing](#user-stories-testing)
 
 [Debugging and known bugs](#debugging-and-known-bugs)
 
@@ -47,8 +51,11 @@ Features across all pages
 * Header will always remain at top of page (will not be sticky) and footer will always remain at bottom of page as user scrolls in order to allow for maximum view of visual content. Easy return to the home page will be provided to counteract this feature. The main purpose of the footer will be to link to the top of the page, so that the user does not have to scroll back up.
 * The header 'Odd Art History' is also a link to the gallery page. It is not underlined when hovered over because it is not part of the navigation bar, but it is a link because this is common on web pages and therefore intuitive to modern web users.
 
+Header
 ![Header](assets/images/readme-images/header-snip.jpg)
+Footer
 ![Footer](assets/images/readme-images/footer-snip.jpg)
+Mobile/Tablet navigation
 <img align="center" width="200" src="assets/images/readme-images/nav-mobile-snip.jpg" alt="Mobile Nav Bar">
 
 Gallery (home/landing page)
@@ -256,7 +263,7 @@ I conducted manual testing and recorded the results as follows:
 
 *I want to be able to access and use the site in the same way as any of the aforementioned visitors*
 
-* Built in accessibility options including aria labels and semantic html, tested at https://accessibilitytest.org/
+* Built in accessibility options including aria labels and semantic html, tested at [Accessibility Test](https://accessibilitytest.org/)
 
 **As the owner of the site:**
 
@@ -274,7 +281,7 @@ I conducted manual testing and recorded the results as follows:
 
 *I want to provide the same experience for all users*
 
-* Built in accessibility options including aria labels and semantic html, tested at https://accessibilitytest.org/
+* Built in accessibility options including aria labels and semantic html, tested at [Accessibility Test](https://accessibilitytest.org/)
 
 ## Debugging and known bugs
 
@@ -286,7 +293,7 @@ No known bugs.
 
 ## Deployment
 
-Publishing
+### Publishing
 
 The project was deployed using GitHub pages. The steps to deploy using GitHub pages are:
 * In the repository, click the 'Settings' tab, which is the furthest to the right
@@ -297,7 +304,7 @@ The project was deployed using GitHub pages. The steps to deploy using GitHub pa
 The live link is:
 [Odd Art History](https://elyserh.github.io/odd-art-history/)
 
-Forking and Cloning
+### Forking and Cloning
 
 To save a copy of the code and work on it yourself, here are the steps for forking and cloning using Github:
 * In the repository, click the 'Fork' button, which is on the top right hand side, next to 'Star'.
@@ -311,14 +318,14 @@ Content
 
 * For the Hannah Gadsby video I used the code that YouTube provides for embedding videos, but removed autoplay, changed the size and altered the title attribute.
 * Much of the text content on the painting pages comes from my own knowledge as an Art History major at the University of Sydney but has been researched for accuracy. Individual references are
-  * Rigaud/Heels image:
+  * Rigaud/Heels:
     * [The Fashion Historian](http://www.thefashionhistorian.com/2010/11/red-heels.html)
     * [BBC](https://www.bbc.com/news/magazine-21151350)
-  * Fragonard/Swing image:
+  * Fragonard/Swing:
     * [Wallace Collection](https://wallacelive.wallacecollection.org/eMP/eMuseumPlus?service=ExternalInterface&module=collection&objectId=65364&viewType=detailView)
     * [Wikipedia entry](https://en.wikipedia.org/wiki/The_Swing_%28Fragonard%29)
     * [Khan Academy](https://www.khanacademy.org/humanities/renaissance-reformation/rococo-neoclassicism/rococo/a/fragonard-the-swing)
-  * Boucher/Balloons image:
+  * Boucher/Balloons:
     * [Wallace Collection](https://wallacelive.wallacecollection.org/eMP/eMuseumPlus?service=ExternalInterface&module=collection&objectId=65420&viewType=detailView)
 * Code for the tablet and mobile hamburger menu was adapted from Mark Caron's article at https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793 .
 * Assistance with visual design from Amelia Horan, as mentioned in Design section of readme.
