@@ -4,14 +4,14 @@
 
 [Purpose](#purpose)
 
-[Features](#features)
-
 [User Stories](#user-stories) 
 
 [Design and UX](#design-and-ux) 
 * [Wireframes](#wireframes)
 * [Colour schemes and typography](#colour-schemes-and-typography)
 * [Accessibility](#accessibility)
+
+[Features](#features)
 
 [Technologies](#technologies)
 
@@ -51,7 +51,7 @@ A first time visitor who is new to art history and comes to the site looking for
 * I want to view interesting information on paintings 
 * I want to find further information and non-academic resources
 
-A first time visitor who is already interested in the field and comes to the site looking for something different to the usual academic information (such as Jstor.org):
+A first time visitor who is already interested in the field and comes to the site looking for something different to the usual academic information:
 * I want to easily understand the content and layout of the site
 * I want to intuitively navigate the site to browse content
 * I want to be able to access and use the website as intended on any device
@@ -74,7 +74,7 @@ As the owner of the site:
 
 ## Design and UX
 
-For part of the site I used a hub and spoke design, with the Gallery (landing/home) page as the hub and the 3 painting pages as spokes. These pages do not appear on the navigation bar but can only be accessed from the links on the Gallery page.
+For part of the site I used a hub and spoke design, with the Gallery (landing/home) page as the hub and the pages for each painting as spokes. These pages do not appear on the navigation bar but can only be accessed from the links on the Gallery page.
 The reason for this design for the painting pages is to bring a sense of playfulness to the website. It would be simple to add in nav links for each painting, either with the painting title or their ‘hint’ word (heels, bushes, balloons), but I feel this would take away from the intrigue and mystery of discovering information about the paintings. The experience will be almost like seeing a glimpse of a painting through a gallery doorway and turning around to go and see the painting. On the Gallery page I have added aria labels which I hope bring this same sense of playfulness and intrigue for a user using a screenreader.
 
 I have included the Gallery, Odd Resources and Suggestions page on the nav bar so that the rest of the site is still clear and simple to navigate, as I don’t want the user to be frustrated or overloaded. I would like to introduce a small amount of playfulness, interactivity and intrigue but not so much that it becomes tiring or frustrating.
@@ -108,7 +108,7 @@ For the fonts, Lato is used for the headings/titles and Source Sans Pro for the 
 
 ## Accessibility
 
-Despite the fact that this website has a strong visual aspect, I wanted it to be an accessible one. Research and tests have been undertaken; semantic html and labelling are used appropriately throughout the html. This is my first time coding html so there will undoubtedly be gaps in my knowledge as to what is achievable.
+Despite the fact that this website has a strong visual aspect, I wanted it to be an accessible one. Research and tests have been undertaken; semantic HTML and labelling are used appropriately throughout the HTML. This is my first time coding HTML so there will undoubtedly be gaps in my knowledge as to what is achievable.
 
 In relation to screenreaders specifically, the biggest difference between the experience of someone visiting my site using a screenreader versus without one is the visual aspect of a gallery. I tried to adapt to this by using descriptive aria labels that fit with the context of the site.
 
@@ -120,7 +120,7 @@ Features across all pages
 * Clear header and site ‘slogan’ (odd facts about old paintings), making the purpose clear to users of the site.
 * Navigation links listing Gallery, Odd Resources, Suggestions and Say Hi (which will link to Facebook), allowing for easy and intuitive navigation of site for all users. On desktop links will be underlined when they are hovered over to indicate to the user that they are clickable.
 * On mobile and most tablets the navigation bar will change to a hamburger design and will remain on the same side of the screen for continuity and ease of use.
-* Footer mirroring design of navigation links, which will link back to top of page, allowing for further easy navigation. Link will also be underlined when hovered over.
+* Footer that mirrors design of navigation links, which will link back to top of page, allowing for further easy navigation. Link will also be underlined when hovered over.
 * Header will always remain at top of page (will not be sticky) and footer will always remain at bottom of page as user scrolls in order to allow for maximum view of visual content. Easy return to the home page will be provided to counteract this feature. The main purpose of the footer will be to link to the top of the page, so that the user does not have to scroll back up.
 * The header 'Odd Art History' is also a link to the gallery page. It is not underlined when hovered over because it is not part of the navigation bar, but it is a link because this is common on web pages and therefore intuitive to modern web users.
 
@@ -135,8 +135,8 @@ Mobile/Tablet navigation
 Gallery (home/landing page)
 * Three main images with text that links to painting pages - each one is a ‘hint’ of the painting, with a hint word and hint image. The aim of the images is to make the user curious about the content. The whole image acts as the link for intuitive use.
 * The 'hint' link/text on each image is large and contrasting, to make it obvious to the user that it is important. It is also underlined when hovered over for the same reason.
-* Images are page width on all devices; the large size of the paintings is mimicking a gallery and providing appealing visual content.
-* Highest quality images available have been used; important for user to get as close experience as possible to viewing the painting in real life.
+* Images are page-width on all devices; the large size of the paintings is mimicking a gallery and providing appealing visual content.
+* Highest quality images available have been used; important for user to get as close an experience as possible to viewing the painting in real life.
 
 ![Top half of gallery page](assets/images/readme-images/gallery-snip.jpg)
 
@@ -189,6 +189,7 @@ Frameworks, Libraries and Programs Used:
 ## Testing
 
 Lighthouse results:
+
 ![Lighthouse results](assets/images/readme-images/lighthouse-results.jpg)
 
 ### Code Validation
@@ -252,7 +253,7 @@ I conducted manual testing and recorded the results as follows:
 
 * The Odd Resources page will provide further non-academic information    
 
-**A first time visitor who is already interested in the field and comes to the site looking for something different to the usual academic information:**
+**A first time visitor who is already interested in the field and comes to the site looking for something different to the usual academic information (in addition to the above testing for a first-time user):**
 
 *I want to view sources for information if needed*
 
@@ -273,7 +274,7 @@ I conducted manual testing and recorded the results as follows:
 
 *I want to be able to access and use the site in the same way as any of the aforementioned visitors*
 
-* Built in accessibility options including aria labels and semantic html, tested at [Accessibility Test](https://accessibilitytest.org/)
+* Built in accessibility options including aria labels and semantic HTML, tested at [Accessibility Test](https://accessibilitytest.org/)
 
 **As the owner of the site:**
 
@@ -291,7 +292,7 @@ I conducted manual testing and recorded the results as follows:
 
 *I want to provide the same experience for all users*
 
-* Built in accessibility options including aria labels and semantic html, tested at [Accessibility Test](https://accessibilitytest.org/)
+* Built in accessibility options including aria labels and semantic HTML, tested at [Accessibility Test](https://accessibilitytest.org/)
 
 ## Debugging and known bugs
 
@@ -310,8 +311,8 @@ No known bugs.
 The project was deployed using GitHub pages. The steps to deploy using GitHub pages are:
 * In the repository, click the 'Settings' tab, which is the furthest to the right
 * Scroll down until you see the 'Pages' tab, which will be in the menu on the left hand side
-* Underneath the 'Source' heading, open the drop down and choose the 'master' branch to buid from
-* Click 'Save' and the site will be link will appear in a blue box. After a few moments the box will turn green and then the site will be live.
+* Underneath the 'Source' heading, open the drop down and choose the 'master' branch to build from
+* Click 'Save' and the site link will appear in a blue box. After a few moments the box will turn green and then the site will be live.
 
 The live link is:
 [Odd Art History](https://elyserh.github.io/odd-art-history/)
