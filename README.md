@@ -194,11 +194,11 @@ Lighthouse results:
 
 ### Code Validation
 
-[HTML validator](https://validator.w3.org/) - no errors, 2 warnings total (check final edit)
+[HTML validator](https://validator.w3.org/) - no errors
 
-[CSS validator](https://jigsaw.w3.org/css-validator/) - no errors (check final edit)
+[CSS validator](https://jigsaw.w3.org/css-validator/) - no errors 
 
-[Accessibility validator](https://accessibilitytest.org/) - rating 96/100 (check final edit)
+[Accessibility validator](https://accessibilitytest.org/) - rating 96/100 
 
 ### Browser Compatibility
 

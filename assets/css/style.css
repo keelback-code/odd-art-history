@@ -54,6 +54,16 @@ footer {
     padding: 10px;
 }
 
+.nav-bar li:hover,
+footer a:hover {
+    text-decoration: underline;
+}
+
+.nav-bar li:focus,
+footer a:focus {
+    text-decoration: underline;
+}
+
 /*Styling for Gallery page*/
 
 #heels-image {
@@ -98,15 +108,8 @@ footer {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-.nav-bar li:hover,
 #gallery-images h3:hover,
-footer a:hover {
-    text-decoration: underline;
-}
-
-.nav-bar li:focus,
-#gallery-images h3:focus,
-footer a:focus {
+#gallery-images h3:focus {
     text-decoration: underline;
 }
 
@@ -144,7 +147,7 @@ footer a:focus {
     hyphens: auto;
 }
 
-.painting-info p>a {
+.painting-info p > a {
     text-decoration: underline;
 }
 
@@ -230,7 +233,7 @@ fieldset {
 #odd-resources-article h3 {
     font-weight: 300;
     color: #852a0d;
-    opacity: 0.65;
+    opacity: 0.75;
 }
 
 #odd-resources-article a {
