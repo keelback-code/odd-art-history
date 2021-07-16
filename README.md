@@ -190,15 +190,21 @@ Frameworks, Libraries and Programs Used:
 
 Lighthouse results:
 
-![Lighthouse results](assets/images/readme-images/lighthouse-results.jpg)
+![Lighthouse results](assets/images/readme-images/lighthouse-performance-results.jpg)
 
 ### Code Validation
 
 [HTML validator](https://validator.w3.org/) - no errors
 
+![HTML code validator image preview](assets/images/readme-images/html-validator-snip.jpg)
+
 [CSS validator](https://jigsaw.w3.org/css-validator/) - no errors 
 
+![Valid CSS logo](https://jigsaw.w3.org/css-validator/images/vcss)
+
 [Accessibility validator](https://accessibilitytest.org/) - rating 96/100 
+
+![Accessibility validator snip](assets/images/readme-images/accessibility-snip.jpg)
 
 ### Browser Compatibility
 
@@ -219,7 +225,7 @@ Compatibility with Internet Explorer was also tested using [NetRenderer](https:/
 ### Performance Testing
 
 Performance testing was conducted using [Lighthouse](https://developers.google.com/web/tools/lighthouse#devtools). The results are:
-![Lighthouse performance results](assets/images/readme-images/lighthouse-performance-results.jpg)
+![Lighthouse results](assets/images/readme-images/lighthouse-results.jpg)
 
 ### Manual Testing
 

@@ -55,10 +55,7 @@ footer {
 }
 
 .nav-bar li:hover,
-footer a:hover {
-    text-decoration: underline;
-}
-
+footer a:hover,
 .nav-bar li:focus,
 footer a:focus {
     text-decoration: underline;
@@ -147,7 +144,7 @@ footer a:focus {
     hyphens: auto;
 }
 
-.painting-info p > a {
+.painting-info p>a {
     text-decoration: underline;
 }
 
