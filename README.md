@@ -38,7 +38,7 @@ The information is aimed to be presented to users who may consider the topic bor
 
 It can be found here:
 
-[Odd Art History](https://elyserh.github.io/odd-art-history/)
+[Odd Art History](https://keelback-code.github.io/odd-art-history/)
 
 ![Screenshot](assets/images/readme-images/odd-art-history-screenshot-screens.jpg)
 
